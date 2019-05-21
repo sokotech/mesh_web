@@ -5,6 +5,7 @@
 			"date":"01/01/2019",
 			"preview":"project1.jpg",
 			"dossier":"1.pdf",
+			"info":"1.txt",
 			"video":"325055393",
 			"author":1
 		},
@@ -15,6 +16,7 @@
 			"date":"02/04/2019",
 			"preview":"project2.jpg",
 			"dossier":"1.pdf",
+			"info":"2.txt",
 			"video":"333506858",
 			"author":2
 		},
@@ -25,6 +27,7 @@
 			"date":"01/01/2019",
 			"preview":"project3.jpg",
 			"dossier":"1.pdf",
+			"info":"1.txt",
 			"video":"334051941",
 			"author":1
 		},
@@ -35,6 +38,7 @@
 			"date":"02/04/2019",
 			"preview":"project4.jpg",
 			"dossier":"1.pdf",
+			"info":"2.txt",
 			"video":"333257472",
 			"author":2
 		},
@@ -45,6 +49,7 @@
 			"date":"01/01/2019",
 			"preview":"project5.jpg",
 			"dossier":"1.pdf",
+			"info":"1.txt",
 			"video":"334092219",
 			"author":1
 		},
@@ -54,6 +59,7 @@
 			"description":"Aenean egestas neque mauris, eget pretium sapien ultrices a. Proin non augue venenatis, placerat velit ac, porta libero.",
 			"date":"02/04/2019",
 			"preview":"project6.jpg",
+			"info":"2.txt",
 			"dossier":"1.pdf",
 			"video":"334312666",
 			"author":2
@@ -64,6 +70,7 @@
 			"description":"Nam ullamcorper mattis aliquet. Sed non egestas ligula. Sed aliquet magna justo, vel egestas ipsum ultricies id.",
 			"date":"01/01/2019",
 			"preview":"project7.jpg",
+			"info":"1.txt",
 			"dossier":"1.pdf",
 			"video":"294614669",
 			"author":1
@@ -75,6 +82,7 @@
 			"date":"02/04/2019",
 			"preview":"project8.jpg",
 			"dossier":"1.pdf",
+			"info":"2.txt",
 			"video":"334681285",
 			"author":2
 		},
@@ -85,6 +93,7 @@
 			"date":"01/01/2019",
 			"preview":"project9.jpg",
 			"dossier":"1.pdf",
+			"info":"1.txt",
 			"video":"335295041",
 			"author":1
 		},
@@ -95,6 +104,7 @@
 			"date":"02/04/2019",
 			"preview":"project10.jpg",
 			"dossier":"1.pdf",
+			"info":"2.txt",
 			"video":"336087157",
 			"author":2
 		},
@@ -105,6 +115,7 @@
 			"date":"01/01/2019",
 			"preview":"project11.jpg",
 			"dossier":"1.pdf",
+			"info":"1.txt",
 			"video":"335740334",
 			"author":1
 		},
@@ -115,6 +126,7 @@
 			"date":"02/04/2019",
 			"preview":"project12.jpg",
 			"dossier":"1.pdf",
+			"info":"2.txt",
 			"video":"77651423",
 			"author":2
 		},
@@ -125,6 +137,7 @@
 			"date":"01/01/2019",
 			"preview":"project13.jpg",
 			"dossier":"1.pdf",
+			"info":"1.txt",
 			"video":"334949439",
 			"author":1
 		},
@@ -135,6 +148,7 @@
 			"date":"02/04/2019",
 			"preview":"project14.jpg",
 			"dossier":"1.pdf",
+			"info":"2.txt",
 			"video":"329376106",
 			"author":2
 		},
@@ -145,6 +159,7 @@
 			"date":"01/01/2019",
 			"preview":"project15.jpg",
 			"dossier":"1.pdf",
+			"info":"1.txt",
 			"video":"328045341",
 			"author":1
 		}

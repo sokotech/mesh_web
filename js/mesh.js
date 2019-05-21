@@ -85,9 +85,9 @@ function load_json(file,func)
 
 function load_data(func)
 {
-		load_json("data/projects/index.json?5",function(data){
+		load_json("data/projects/index.json?6",function(data){
 			projects=data;
-			load_json("data/authors/index.json?5",function(data){
+			load_json("data/authors/index.json?6",function(data){
 					authors=data;	
 					func();				
 				})
@@ -270,17 +270,28 @@ $(document).ready(function()
 			return(false);
 		}
 		
+		$(this).addClass("hidden");
+		$(".sending").removeClass("hidden");
+		
  		var params={"function": "contact", "email":email,"text":msg, "lng": lng};		
 		$.post("https://2017.steamconf.com/mesh/email.php",params)
 			   .done(function(data)
 			   {
-			   	alert(data);
+			   	//alert(data);
 			   	var res=JSON.parse($.trim(data));
 					if(res.result=="ok") 
-						$(".result_ok").show();					
-			   		
+					{
+			   		$(".sending").addClass("hidden");
+						$(".result_ok").show();		
+					}else{				
+						$("#btn_contact").removeClass("hidden");
+			   		$(".sending").addClass("hidden");
+						$(".error_server").show();
+   		   	}
 			   }).fail(function(xhr, status, error)
 			     {
+						$("#btn_contact").removeClass("hidden");
+			   		$(".sending").addClass("hidden");
 						$(".error_server").show();
    		     });
    	return(false); 	     
