@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans');
+
+html,body {
+    margin:0;
+    padding:0;
+    height:100%; 
+    font-family: 'Open Sans', sans-serif;
+    abackground:#111111;
+}
+p {
+	 font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container
+{
+	min-height:100%;
+	position:relative;
+	
+}
+.hidden
+{
+	 display:none !important;
+}
+
+/* ---- navbar -------------- */
+
+.navbar
+{
+	margin:0;
+	padding:13px 40px 10px 26px !important;
+	background:#111111 !important;
+}
+.navbar-brand
+{
+	width:129px;
+}
+
+/* ---- foot -------------- */
+
+.foot
+{
+	background:#111111;
+	color:white;
+	margin:0;
+	width:100%;
+	padding:60px 20px 40px 20px;
+}
+
+.foot_logo
+{
+	width:280px; /*260px 450px*/
+	margin-bottom:5px;
+}
+.foot_title
+{
+	font-size:15px; /*14px 24px*/
+	text-transform: uppercase;
+}
+
+/* ---- form -------------- */
+.foot form input
+{
+	padding:5px;
+	margin-bottom:5px;
+	aborder-radius:5px 5px 0 0;
+}
+.contact_result
+{
+	display:none;
+	margin-top:10px;
+}
+#btn_contact
+{
+	box-shadow:none;
+}
+
+/* ---- head -------------- */
+
+.home-bg {
+  background-color: #111111;
+  height: 550px;
+}
+.home-bg svg
+{
+	adisplay:block;
+}
+#mesh-hero-bg-graphic {
+  width: 83%;
+  margin: 118px 0 0 5px;
+  transform: rotate(243deg)
+}
+
+#mesh-hero-title {
+  display: block;
+  position: absolute;
+  width: 150px;
+  padding: 150px 0;
+  top: 240px;
+  right: 30px;
+  color:white;
+  font-size:59px;
+  text-transform:uppercase;
+}
+
+.home-hero {
+   margin-bottom: 0px;
+   width:100%;
+   
+   background:#111111;
+   display:block;
+   position:relative;
+   min-height:100%;
+}
+
+.home-hero-img-container {
+  padding: 0 !important;
+}
+
+#home-hero-img {
+  width: auto;
+}
+
+@media (min-width: 360px) {
+  .home-bg {
+    height: 490px;
+  }
+}
+
+@media (min-width: 576px) {
+
+  .home-bg {
+    height: auto;
+  }
+
+  .home-hero {
+     margin-bottom: 0px;
+  }
+
+  #mesh-hero-bg-graphic {
+    width: 59%;
+    margin: 100px 0 70px 30px;
+    transform: rotate(0deg)
+  }
+
+  #mesh-hero-title {
+    width: 250px;
+    padding: 80px 0;
+    top: 115px;
+    right: 47px;
+  }
+
+}
+
+@media (min-width: 768px) {
+
+  #mesh-hero-title {
+    width: 335px;
+    padding: 100px 0;
+  }
+
+}
+
+
+@media (min-width: 992px) {
+
+  #mesh-hero-title {
+    width: 400px;
+    padding: 150px 0;
+    top: 150px;
+  }
+
+  #mesh-hero-bg-graphic {
+    width: 65%;
+    margin: 100px 0 70px 30px;
+  }
+
+}
+
+
+@media (min-width: 1200px) {
+
+  #mesh-hero-title {
+    width: 473px;
+    top: 155px;
+  }
+
+}
+
+
+/* ---- projects ------------- */
+
+.loading
+{
+	text-align:center;
+}
+#projects
+{ 
+  padding-top:120px;
+}
+.projects
+{
+	padding:80px 0 80px 0;
+}
+.projects_grid
+{
+	display:flex;
+	flex-wrap:wrap;
+}
+
+.project_item
+{
+	margin-bottom:30px;
+}
+
+.project_item img
+{
+	width:100%;
+	border-radius: 5px;
+}
+.project_data_title
+{
+   margin:10px 0 0 0;
+   font-weight:normal;
+   font-size:1.5em;
+}
+.project_data_author
+{
+	afont-size:14px;
+	color:gray;
+	margin:0px 0 10px 0;
+}
+.project_data_info
+{
+	line-height:1.2;
+}
+
+.project_item a
+{
+    text-decoration:none;	
+    color:inherit;
+}
+
+.project_item a:hover
+{
+    text-decoration:none;
+}
+
+.project_item a:hover h2
+{
+	text-decoration: underline;
+}
+
+
+/* ---- project info -------------- */
+.col_project
+{
+	padding-right:40px !important;
+}
+.project_info
+{
+	 padding:120px 20px 50px 20px;
+}
+.project_wrapper
+{
+	margin-bottom:150px;
+}
+.project_video
+{
+	 position:relative;
+	 padding:52.73% 0 0 0;
+	 margin-bottom:40px;
+}
+.author_picture
+{
+	width:100%;
+	margin-bottom:20px;
+}
+
+
+

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MESH</title>
+  <meta name="description" content="MESH by SOKO">
+  <meta name="author" content="SokoTech" >
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  
+  <!--<link href="./css/bootstrap.min.css" rel="stylesheet">
+  <script src="./js/jquery.1_11_1.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="css/mesh.css?9" rel="stylesheet">
+
+  <!--<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>-->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <script src="js/mesh.js?10"></script>
+  <script src="js/w3.js"></script>
+
+</head>
+
+<body>
+   <!--<div w3-include-HTML="nav.html?2"></div>-->
+   
+   <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="."><img src="img/mesh_logo_white.svg" alt="mesh logo"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-items" aria-controls="navbar-items" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-end" id="navbar-items">
+      <ul class="navbar-nav">
+        <li class="nav-item aactive">
+          <a class="nav-link" href=".">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href=".#projects">Proyectos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contacto</a>
+        </li>
+      </ul>
+    </div>
+   </nav>
+     
+     
+     
+   <div class="container project_info">
+   	<div class="row">
+   		<div class="col-md-9 col_project">
+				<div class="project_video">		
+					<!--<iframe src="https://player.vimeo.com/video/333758769?title=0&byline=0&portrait=0"--> 
+					<iframe src=""
+					  style="position:absolute;top:0;left:0;width:100%;height:100%;" 
+					  frameborder="0" allow="autoplay; fullscreen" allowfullscreen>
+					</iframe>
+				</div>		
+				<script src="https://player.vimeo.com/api/player.js"></script>
+				<div class="project_wrapper">
+	  	 	   	<h1 class="project_title"></h1>
+   	  			<p class="lead project_description"></p>
+     				<a href="#" target="_new" class="btn btn-info project_dossier" role="button">Descargar dossier en formato PDF</a>
+     			</div>
+      	</div>
+      	<div class="col-md-3">
+      		<img class="author_picture" src=""/>
+				<h2 class="author_name"></h2>
+      		<p class="author_bio"></p>
+      	</div>
+      </div>	
+	</div>
+	
+  <!-- <div w3-include-HTML="foot.html?3"></div>
+	<script>w3.includeHTML();</script>	
+	-->
+	
+<div class="foot row">
+	<div class="col-md-6">
+		<img class="foot_logo" src="img/mesh_logo_white.svg" alt="mesh logo">
+		<h2 class="foot_title">Maker Education Science Hack</h2>
+		<br/>
+		<p>
+		Un proyecto de <b>SokoTech</b><br/>
+		<a class="text-warning" target="_new" href="https://soko.tech">www.soko.tech</a> | mesh@soko.tech<br/>
+		</p>
+	</div>
+   <div id="contact" class="col-md-6">
+     <form>
+      <p>Rellena el formulario para ponerte en contacto con nosotros o suscribirte a nuestra newsletter.</p>
+	  	<div class="form-group">
+    		<input type="email" class="form-control position-static" id="contact_email" aria-describedby="emailHelp" 
+    			placeholder="tu email">
+    		<input type="email" class="form-control position-static" id="contact_remail" 
+    			placeholder="reescribe tu email">
+    		<textarea class="form-control position-static" id="contact_message" rows="3" placeholder="tu mensaje"></textarea>
+	
+			<div class="contact_result result_ok text-white">
+					Mensaje recibido... te responderemos lo antes posible. Gracias.
+			</div>
+			<div class="contact_result text-warning error_empty">
+					Se deben rellenar todos los campos del formulario.
+			</div>
+			<div class="contact_result text-warning error_email">
+					Parece que el email no es correcto.
+			</div>  		
+			<div class="contact_result text-warning error_remail">
+					Los emails no coinciden.
+			</div>  		
+			<div class="contact_result error_server text-danger">
+					Se ha producido un error inesperado, por favor inténtalo de nuevo.
+			</div>  		
+  		</div>
+ 
+  		<button id="btn_contact" type="submit" class="btn btn-info float-right">Enviar mensaje</button>
+	  </form>
+	</div>
+</div>
+	
+		
+</body>	
+</html>

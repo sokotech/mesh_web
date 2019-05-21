@@ -1,0 +1,38 @@
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="."><img src="img/mesh_logo_white.svg" alt="mesh logo"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-items" aria-controls="navbar-items" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse justify-content-end" id="navbar-items">
+    <ul class="navbar-nav">
+      <li class="nav-item aactive">
+        <a class="nav-link" href="#">Inicio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#projects">Proyectos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">Contacto</a>
+      </li>
+      <!--<li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Content
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">01. Problem</a>
+          <a class="dropdown-item" href="#">02. Research</a>
+          <a class="dropdown-item" href="#">03. Analisys</a>
+          <a class="dropdown-item" href="#">04. Concept</a>
+          <a class="dropdown-item" href="#">05. Prototype/Testing</a>
+          <a class="dropdown-item" href="#">06. Functional model</a>
+          <a class="dropdown-item" href="#">07. Release</a>
+          <a class="dropdown-item" href="#">08. Further analisys</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Engaging with people</a>
+        </div>
+      </li>
+      -->
+    </ul>
+  </div>
+</nav>

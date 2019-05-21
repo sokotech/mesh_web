@@ -1,0 +1,14 @@
+{
+		
+		"1":{
+			"name":"Bruce Banner",
+			"picture":"bruce_banner.jpg",
+			"bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mollis luctus leo eu ultricies. Mauris consequat facilisis rhoncus. Praesent porttitor tortor pellentesque, gravida turpis ut, commodo felis. Ut et auctor purus, id sagittis turpis. Nulla eu sem nibh. Phasellus mauris nulla, volutpat id facilisis sit amet, pulvinar at metus. Suspendisse vitae dui felis. Suspendisse vel tincidunt elit."	
+		},
+		"2":{
+			"name":"Tony Stark",
+			"picture":"tony_stark.jpg",
+			"bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mollis luctus leo eu ultricies. Mauris consequat facilisis rhoncus. Praesent porttitor tortor pellentesque, gravida turpis ut, commodo felis. Ut et auctor purus, id sagittis turpis. Nulla eu sem nibh. Phasellus mauris nulla, volutpat id facilisis sit amet, pulvinar at metus. Suspendisse vitae dui felis. Suspendisse vel tincidunt elit."	
+		}
+		
+}

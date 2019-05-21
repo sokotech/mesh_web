@@ -1,0 +1,14 @@
+{
+		
+		"1":{
+			"name":"Bruce Banner",
+			"picture":"bruce_banner.jpg",
+			"bio":"Dr. en radiación Gamma por la universidad de Standford. Ha trabajado para el departamento de defensa de los EEUU durante más de 5 años, actividad que dejó par centrarse en sus propias investigaciones."	
+		},
+		"2":{
+			"name":"Tony Stark",
+			"picture":"tony_stark.jpg",
+			"bio":"CEO de Stark Enterprise, magnate, playboy, genio y millonario."	
+		}
+		
+}

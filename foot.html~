@@ -1,0 +1,66 @@
+<div class="foot row">
+	<div class="col-md-6">
+		<img class="foot_logo" src="img/mesh_logo_white.svg" alt="mesh logo">
+		<h2 class="foot_title">Maker Education Science Hack</h2>
+		<p>
+		Un proyecto de SokoTech<br/>
+		Suscríbete a nuestro newsletter enviándonos un mensaje a través del formulario de contacto.
+		</p>
+	</div>
+   <div id="contact" class="col-md-6">
+     <form>
+	  	<div class="form-group">
+    		<input type="email" class="form-control position-static" id="contact_email" aria-describedby="emailHelp" 
+    			placeholder="tu email">
+    		<input type="email" class="form-control position-static" id="contact_reemail" 
+    			placeholder="reescribe tu email">
+    		<textarea class="form-control position-static" id="contact_message" rows="3" placeholder="tu mensaje"></textarea>
+  		</div>
+ 
+  		<button id="btn_contact" type="submit" class="btn btn-primary">Enviar</button>
+	  </form>
+	</div>
+</div>
+
+<!--<footer class="main-footer">
+
+	<div class="container-fluid">
+
+		<div class="row">
+
+			<div class="col-md-3" id="footer-left">
+				<img id="mesh-logo-text-footer" src="/img/00/mesh_title_white.svg" alt="mesh-logo-text-footer">
+			</div>
+
+			<div class="col-md-6" id="footer-center">
+
+				<div class="container-fluid" id="footer-icons-container">
+
+					<a class="pointer-tip" title="About Mesh" href="/about"><i class="fas fa-question-circle mesh-icon-footer"></i></a>
+
+					<a class="pointer-tip" title="Mesh Etherpad" href="#"><i class="far fa-sticky-note mesh-icon-footer"></i></a>
+
+					<a class="pointer-tip" title="Mesh Github" href="#"><i class="fab fa-github mesh-icon-footer"></i></a>
+
+					<a class="pointer-tip" title="Mesh Video" href="#"><i class="far fa-play-circle mesh-icon-footer"></i></a>
+
+					<a class="pointer-tip" title="Our Instagram" href="#"><i class="fab fa-instagram mesh-icon-footer"></i></a>
+
+					<a class="pointer-tip" title="Contact us" href="mailto:hello@soko.tech"><i class="far fa-comment-dots mesh-icon-footer"></i></a>
+
+				</div>
+
+			</div> 
+
+			<div class="col-md-3" id="footer-right">
+
+				<img id="mesh-logo-footer" src="/img/00/mesh_logo_white.svg" alt="mesh-logo-footer">
+
+			</div> 
+
+		</div> 
+
+	</div> 
+
+</footer> 
+-->

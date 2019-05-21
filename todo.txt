@@ -1,0 +1,1 @@
+- Optimizar código de carga de nav y foot sin ws.js
