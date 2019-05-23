@@ -85,9 +85,9 @@ function load_json(file,func)
 
 function load_data(func)
 {
-		load_json("data/projects/index.json?5",function(data){
+		load_json("data/projects/index.json?6",function(data){
 			projects=data;
-			load_json("data/authors/index.json?5",function(data){
+			load_json("data/authors/index.json?6",function(data){
 					authors=data;	
 					func();				
 				})
@@ -244,6 +244,23 @@ $(document).ready(function()
         	}
    });
 
+   $("#check_subscription").click(function()
+    {
+				var checked=$(this).find("input").prop('checked');	
+			   $(".btn_lbl").removeClass("hidden");
+				if(checked)
+				{
+			    	$(this).find("input").prop('checked', false)
+			    	$("#contact_form").find(".no_subscription").prop("disabled",false);
+			    	$(".btn_lbl_subscribe").addClass("hidden");
+				}else{
+			    	$(this).find("input").prop('checked', true)
+			    	$("#contact_form").find(".no_subscription").prop("disabled",true);
+			    	$(".btn_lbl_send").addClass("hidden");
+			    }	
+				return(false);
+   	});
+
    $("#contact input, #contact textarea").on('input',function()
    {
    	$(".contact_result").hide();   
@@ -251,10 +268,12 @@ $(document).ready(function()
    $("#btn_contact").click(function()
    {
    	$(".contact_result").hide();
+		var name=$("#contact_name").val().trim();
 		var email=$("#contact_email").val().trim();
 		var remail=$("#contact_remail").val().trim();
 		var msg=$("#contact_message").val().trim();
-		if(((email.length==0) || (remail.length==0)) || (msg.length==0)) 
+		if((((email.length==0) || (remail.length==0)) || (name.length==0)) ||
+					((msg.length==0) && (!$("#check_subscription").find("input").prop('checked')))) 
 		{
 			$(".error_empty").show();
 			return(false);
@@ -273,7 +292,29 @@ $(document).ready(function()
 		$(this).addClass("hidden");
 		$(".sending").removeClass("hidden");
 		
- 		var params={"function": "contact", "email":email,"text":msg, "lng": lng};		
+		if($("#check_subscription").find("input").prop('checked'))
+		{		
+			alert("pasa");
+			//<form action="" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+			//<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+			//<input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+			//<input type="text" value="" name="LNAME" class="" id="mce-LNAME">
+   		//<input type="text" name="b_357ca9f48e009ad4a37ae7317_eb109a5aea" tabindex="-1" value=""></div>
+   		//<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+			$.ajaxSetup({
+    				crossDomain: true,
+			});			
+			var params={"FNAME":name, "EMAIL":email,"LNAME":"", 
+							"LANGUAGE": lng};		
+			$.post("https://tech.us17.list-manage.com/subscribe/post?u=357ca9f48e009ad4a37ae7317&amp;id=eb109a5aea",
+					params)
+			   .done(function(data)
+			   {
+			   	alert(data);
+			   });
+			return(false);
+		}
+ 		var params={"function": "contact", "name":name, "email":email,"text":msg, "lng": lng};		
 		$.post("https://2017.steamconf.com/mesh/email.php",params)
 			   .done(function(data)
 			   {

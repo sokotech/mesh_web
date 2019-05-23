@@ -15,7 +15,7 @@
   <link href="https://fonts.googleapis.com/css?family=Raleway:800" rel="stylesheet">
   
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link href="css/mesh.css?14" rel="stylesheet">
+  <link href="css/mesh.css?15" rel="stylesheet">
 
 
   <!--<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>-->
@@ -24,7 +24,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
   <!--<script src="./js/bootstrap.min.js"></script>-->
-  <script src="js/mesh.js?35"></script>
+  <script src="js/mesh.js?38"></script>
   <script src="js/w3.js"></script>
 
 </head>
@@ -87,31 +87,38 @@
 		<img class="foot_logo" src="img/mesh_logo_white.svg" alt="mesh logo">
 		<h2 class="foot_title">Maker Education Science Hack</h2>
 		<br/>
+		<p>Con el soporte de l'Ajuntament de Barcelona</p>
 		<p>
-		Un proyecto de <b>SokoTech</b><br/>
+		Technology of love by SokoTech<br/>
 		<a class="text-warning" target="_new" href="https://soko.tech">www.soko.tech</a> | mesh@soko.tech<br/>
 		</p>
 	</div>
    <div id="contact" class="col-md-6">
    
-     <form>
+     <form id="contact_form" autocomplete="on">
       <p>Rellena el formulario para ponerte en contacto con nosotros o suscribirte a nuestra newsletter.</p>
 	  	<div class="form-group">
-			<!--<div class="form-check">
-  				<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-  				<label class="form-check-label" for="defaultCheck1">
-    					Sólo hacer suscripción
-  				</label>
-			</div>-->	  	
-	  	
-    		<input type="email" class="form-control position-static" id="contact_email" aria-describedby="emailHelp" 
-    			placeholder="tu email">
+			
+			<div class="custom-control custom-checkbox" id="check_subscription">
+  				<input type="checkbox" class="custom-control-input">
+  				<label class="custom-control-label" for="customCheck1">Suscripción</label>
+			</div>
+	  		<input type="text" class="form-control position-static" id="contact_name"  
+    			placeholder="nombre" autocomplete="on">
+	  		<input type="email" class="form-control position-static" id="contact_email"  
+    			placeholder="email" autocomplete="on">
     		<input type="email" class="form-control position-static" id="contact_remail" 
-    			placeholder="reescribe tu email">
-    		<textarea class="form-control position-static" id="contact_message" rows="3" placeholder="tu mensaje"></textarea>
+    			placeholder="reescribir email" autocomplete="on">
+    		<textarea class="form-control position-static no_subscription" id="contact_message" rows="3" 
+    			placeholder="mensaje"></textarea>
 	
 			<div class="contact_result result_ok text-white">
-					Mensaje recibido... te responderemos lo antes posible. Gracias.
+					<span class="btn_lbl btn_lbl_send">
+						Mensaje recibido! te responderemos lo antes posible. Gracias.
+					</span>	
+					<span class="btn_lbl btn_lbl_subscription hidden">
+						Suscripción a newsletter realizada. Gracias.
+					</span>	
 			</div>
 			<div class="contact_result text-warning error_empty">
 					Se deben rellenar todos los campos del formulario.
@@ -129,8 +136,8 @@
  
   		<div class="loading sending text-right hidden"><div class="lds-facebook"><div></div><div></div><div></div></div></div>
   		<button id="btn_contact" type="submit" class="btn btn-info float-right">
-  			<span class="lbl_send">Enviar mensaje</span>
-  			<span class="lbl_suscribe hidden">Suscribir a newsletter</span>
+  			<span class="btn_lbl btn_lbl_send">Enviar mensaje</span>
+  			<span class="btn_lbl btn_lbl_subscribe hidden">Suscribirse</span>
   		</button>
 	  </form>
 	</div>
