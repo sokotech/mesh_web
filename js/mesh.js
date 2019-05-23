@@ -294,7 +294,7 @@ $(document).ready(function()
 		
 		if($("#check_subscription").find("input").prop('checked'))
 		{		
-			alert("pasa 2");
+			//alert("pasa 2");
 			//<form action="" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 			//<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
 			//<input type="text" value="" name="FNAME" class="" id="mce-FNAME">
@@ -311,7 +311,10 @@ $(document).ready(function()
 			   .done(function(data)
 			   {
 			   	alert(data);
-			   });
+			   }).fail(function(xhr, status, error)
+			     {
+						alert(error);			     
+			     });
 			return(false);
 		}
  		var params={"function": "contact", "name":name, "email":email,"text":msg, "lng": lng};		
