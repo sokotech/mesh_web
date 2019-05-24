@@ -1,12 +1,47 @@
 {
 		
 		"1":{
-			"name":"Bruce Banner",
+			"name":"Efraín Foglia",
 			"picture":"bruce_banner.jpg",
 			"bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mollis luctus leo eu ultricies. Mauris consequat facilisis rhoncus. Praesent porttitor tortor pellentesque, gravida turpis ut, commodo felis. Ut et auctor purus, id sagittis turpis. Nulla eu sem nibh. Phasellus mauris nulla, volutpat id facilisis sit amet, pulvinar at metus. Suspendisse vitae dui felis. Suspendisse vel tincidunt elit."	
 		},
 		"2":{
-			"name":"Tony Stark",
+			"name":"Margarita Padilla",
+			"picture":"tony_stark.jpg",
+			"bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mollis luctus leo eu ultricies. Mauris consequat facilisis rhoncus. Praesent porttitor tortor pellentesque, gravida turpis ut, commodo felis. Ut et auctor purus, id sagittis turpis. Nulla eu sem nibh. Phasellus mauris nulla, volutpat id facilisis sit amet, pulvinar at metus. Suspendisse vitae dui felis. Suspendisse vel tincidunt elit."	
+		},
+		"3":{
+			"name":"Alex Hache",
+			"picture":"tony_stark.jpg",
+			"bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mollis luctus leo eu ultricies. Mauris consequat facilisis rhoncus. Praesent porttitor tortor pellentesque, gravida turpis ut, commodo felis. Ut et auctor purus, id sagittis turpis. Nulla eu sem nibh. Phasellus mauris nulla, volutpat id facilisis sit amet, pulvinar at metus. Suspendisse vitae dui felis. Suspendisse vel tincidunt elit."	
+		},
+		"4":{
+			"name":"David Cuartielles",
+			"picture":"tony_stark.jpg",
+			"bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mollis luctus leo eu ultricies. Mauris consequat facilisis rhoncus. Praesent porttitor tortor pellentesque, gravida turpis ut, commodo felis. Ut et auctor purus, id sagittis turpis. Nulla eu sem nibh. Phasellus mauris nulla, volutpat id facilisis sit amet, pulvinar at metus. Suspendisse vitae dui felis. Suspendisse vel tincidunt elit."	
+		},
+		"5":{
+			"name":"Pamela Lustig",
+			"picture":"tony_stark.jpg",
+			"bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mollis luctus leo eu ultricies. Mauris consequat facilisis rhoncus. Praesent porttitor tortor pellentesque, gravida turpis ut, commodo felis. Ut et auctor purus, id sagittis turpis. Nulla eu sem nibh. Phasellus mauris nulla, volutpat id facilisis sit amet, pulvinar at metus. Suspendisse vitae dui felis. Suspendisse vel tincidunt elit."	
+		},
+		"6":{
+			"name":"Oscar Ciuró",
+			"picture":"tony_stark.jpg",
+			"bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mollis luctus leo eu ultricies. Mauris consequat facilisis rhoncus. Praesent porttitor tortor pellentesque, gravida turpis ut, commodo felis. Ut et auctor purus, id sagittis turpis. Nulla eu sem nibh. Phasellus mauris nulla, volutpat id facilisis sit amet, pulvinar at metus. Suspendisse vitae dui felis. Suspendisse vel tincidunt elit."	
+		},
+		"7":{
+			"name":"Núria Alonso",
+			"picture":"tony_stark.jpg",
+			"bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mollis luctus leo eu ultricies. Mauris consequat facilisis rhoncus. Praesent porttitor tortor pellentesque, gravida turpis ut, commodo felis. Ut et auctor purus, id sagittis turpis. Nulla eu sem nibh. Phasellus mauris nulla, volutpat id facilisis sit amet, pulvinar at metus. Suspendisse vitae dui felis. Suspendisse vel tincidunt elit."	
+		},
+		"8":{
+			"name":"Belén Fernández",
+			"picture":"tony_stark.jpg",
+			"bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mollis luctus leo eu ultricies. Mauris consequat facilisis rhoncus. Praesent porttitor tortor pellentesque, gravida turpis ut, commodo felis. Ut et auctor purus, id sagittis turpis. Nulla eu sem nibh. Phasellus mauris nulla, volutpat id facilisis sit amet, pulvinar at metus. Suspendisse vitae dui felis. Suspendisse vel tincidunt elit."	
+		},
+		"9":{
+			"name":"Lolo y Sosaku",
 			"picture":"tony_stark.jpg",
 			"bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mollis luctus leo eu ultricies. Mauris consequat facilisis rhoncus. Praesent porttitor tortor pellentesque, gravida turpis ut, commodo felis. Ut et auctor purus, id sagittis turpis. Nulla eu sem nibh. Phasellus mauris nulla, volutpat id facilisis sit amet, pulvinar at metus. Suspendisse vitae dui felis. Suspendisse vel tincidunt elit."	
 		}

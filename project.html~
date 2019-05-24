@@ -62,12 +62,12 @@
 					</iframe>
 				</div>		
 				<script src="https://player.vimeo.com/api/player.js"></script>
-				
+				<!--
 				<video preload="auto" asrc="blob:https://www.dropbox.com/82dd210d-c5b6-4978-a73e-f1d8ec5d1ab7">
 					<source src="https://uc96ce495f043c8711fd10cc89b9.previews.dropboxusercontent.com/p/hls_master_playlist/AAbavZPu322sHgnNq9oSmtY0OkYJ1D4rq24uVaDqPYikIxmab2Hs7LrzFlVuqy8AvS9hyIbsUhBM7QEh-F7wHBNs02B4X_PFb4BCjXS-wr9g-Jd37RKmkKMXGAW3gYG9D4i2IO_HCVNIBENzq2qxtrn_k6Et2YQpWPvCD96c2wln4wHebrrAHPrkfBhat7Gq5WQ-qR2MbMcSzUfbHQ52f5iHhC9U2-0T1zWS8UF5lnPRfG0KBc3ilZX7l2rOej-Q0Krb3DTgJy_aRyArWcigica5uFGHJdig_Iyz5gmsxF_ZU_pGBfd6uT1ZuiBZ9h_TKZs/p.m3u8" 
 					    type="application/vnd.apple.mpegurl">
 				</video>
-				
+				-->
 				
 				<div class="project_wrapper">
 	  	 	   	<h1 class="project_title"></h1>
@@ -86,46 +86,19 @@
   <!-- <div w3-include-HTML="foot.html?3"></div>
 	<script>w3.includeHTML();</script>	
 	-->
-	
-<div class="foot row">
-	<div class="col-md-6">
-		<img class="foot_logo" src="img/mesh_logo_white.svg" alt="mesh logo">
-		<h2 class="foot_title">Maker Education Science Hack</h2>
-		<br/>
-		<p>
-		Un proyecto de <b>SokoTech</b><br/>
-		<a class="text-warning" target="_new" href="https://soko.tech">www.soko.tech</a> | mesh@soko.tech<br/>
-		</p>
-	</div>
-   <div id="contact" class="col-md-6">
-     <form>
-      <p>Rellena el formulario para ponerte en contacto con nosotros o suscribirte a nuestra newsletter.</p>
-	  	<div class="form-group">
-    		<input type="email" class="form-control position-static" id="contact_email" aria-describedby="emailHelp" 
-    			placeholder="tu email">
-    		<input type="email" class="form-control position-static" id="contact_remail" 
-    			placeholder="reescribe tu email">
-    		<textarea class="form-control position-static" id="contact_message" rows="3" placeholder="tu mensaje"></textarea>
-	
-			<div class="contact_result result_ok text-white">
-					Mensaje recibido... te responderemos lo antes posible. Gracias.
-			</div>
-			<div class="contact_result text-warning error_empty">
-					Se deben rellenar todos los campos del formulario.
-			</div>
-			<div class="contact_result text-warning error_email">
-					Parece que el email no es correcto.
-			</div>  		
-			<div class="contact_result text-warning error_remail">
-					Los emails no coinciden.
-			</div>  		
-			<div class="contact_result error_server text-danger">
-					Se ha producido un error inesperado, por favor inténtalo de nuevo.
-			</div>  		
-  		</div>
- 
-  		<button id="btn_contact" type="submit" class="btn btn-info float-right">Enviar mensaje</button>
-	  </form>
+<div class="foot">
+	<p class="foot_text lead text-center">Technology of <span style="color:#FFc0c0">love</span> by </p>
+	<div class="row">
+		<div class="col-md-4 col-sm-12 align-self-center abg-warning">
+			<img class="foot_logo logo_manel" src="img/logos/pare_manel.png" alt="Fundació Pare Manel Logo"/>
+		</div>
+		<div class="col-md-4 col-sm-12 align-self-center abg-info">
+			<img class="foot_logo logo_soko" src="img/logos/soko_tech.png" alt="Soko Tech Logo"/>
+		</div>			
+		<div class="col-md-4 col-sm-12 align-self-center abg-white">
+			<p class="small">Con el soporte de l'Ajuntament de Barcelona</p>
+			<img class="foot_logo logo_bcn" src="img/logos/bcn_activa.png" alt="Bcn Activa Logo"/>
+		</div>  
 	</div>
 </div>
 	

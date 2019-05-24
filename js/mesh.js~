@@ -291,34 +291,12 @@ $(document).ready(function()
 		
 		$(this).addClass("hidden");
 		$(".sending").removeClass("hidden");
-		
-		if($("#check_subscription").find("input").prop('checked'))
-		{		
-			//alert("pasa 2");
-			//<form action="" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-			//<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-			//<input type="text" value="" name="FNAME" class="" id="mce-FNAME">
-			//<input type="text" value="" name="LNAME" class="" id="mce-LNAME">
-   		//<input type="text" name="b_357ca9f48e009ad4a37ae7317_eb109a5aea" tabindex="-1" value=""></div>
-   		//<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-			$.ajaxSetup({
-    				crossDomain: true,
-			});			
-			var params={"FNAME":name, "EMAIL":email,"LNAME":"", 
-							"LANGUAGE": lng};		
-			$.post("https://tech.us17.list-manage.com/subscribe/post?u=357ca9f48e009ad4a37ae7317&amp;id=eb109a5aea",
-					params)
-			   .done(function(data)
-			   {
-			   	alert(data);
-			   }).fail(function(xhr, status, error)
-			     {
-						alert(error);			     
-			     });
-			return(false);
-		}
- 		var params={"function": "contact", "name":name, "email":email,"text":msg, "lng": lng};		
+				
+ 		var params={"function": "contact", "name":name, "email":email,"text":msg, "lng": lng};
+ 						 //"comment":$("#contact_comment").val()};		
+ 	   if($("#check_subscription").find("input").prop('checked')) params["subscribe"]=1;
 		$.post("https://2017.steamconf.com/mesh/email.php",params)
+		//$.post("host/email.php",params)
 			   .done(function(data)
 			   {
 			   	//alert(data);

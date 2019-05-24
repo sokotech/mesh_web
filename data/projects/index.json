@@ -1,7 +1,7 @@
 {	
 		"1":{
-			"title":"Loren ipsum",
-			"description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+			"title":"FutureMeshNetworks",
+			"description":"Mesh Networks y el futuro de internet.",
 			"date":"01/01/2019",
 			"preview":"project1.jpg",
 			"dossier":"1.pdf",
@@ -11,7 +11,7 @@
 		},
 		
 		"2":{
-			"title":"Nullam neque",
+			"title":"Introducción a herramientas tecnológicas libres y éticas",
 			"description":"Nullam neque sapien, ultricies viverra enim at, aliquet feugiat orci.",
 			"date":"02/04/2019",
 			"preview":"project2.jpg",
@@ -22,79 +22,79 @@
 		},
 		
 		"3":{
-			"title":"Quisque fringilla",
+			"title":"Seguridad y privacidad digital básica",
 			"description":"Quisque fringilla nibh magna, eget consequat massa facilisis sit amet.",
 			"date":"01/01/2019",
 			"preview":"project3.jpg",
 			"dossier":"1.pdf",
 			"info":"1.txt",
 			"video":"334051941",
-			"author":1
+			"author":3
 		},
 		
 		"4":{
-			"title":"Class aptent",
+			"title":"Metodologias y prácticas de diseño",
 			"description":"Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
 			"date":"02/04/2019",
 			"preview":"project4.jpg",
 			"dossier":"1.pdf",
 			"info":"2.txt",
 			"video":"333257472",
-			"author":2
+			"author":4
 		},
 		
 		"5":{
-			"title":"Aenean imperdiet",
+			"title":"Diseño 2D & 3D",
 			"description":"Aenean imperdiet odio id libero interdum dignissim. Fusce egestas tempor auctor.",
 			"date":"01/01/2019",
 			"preview":"project5.jpg",
 			"dossier":"1.pdf",
 			"info":"1.txt",
 			"video":"334092219",
-			"author":1
+			"author":5
 		},
 		
 		"6":{
-			"title":"Aenean egestas",
+			"title":"Cortadora de Vinilo y Láser",
 			"description":"Aenean egestas neque mauris, eget pretium sapien ultrices a. Proin non augue venenatis, placerat velit ac, porta libero.",
 			"date":"02/04/2019",
 			"preview":"project6.jpg",
 			"info":"2.txt",
 			"dossier":"1.pdf",
 			"video":"334312666",
-			"author":2
+			"author":6
 		},
 		
 		"7":{
-			"title":"Nam ullamcorper",
+			"title":"Electrónica y programación",
 			"description":"Nam ullamcorper mattis aliquet. Sed non egestas ligula. Sed aliquet magna justo, vel egestas ipsum ultricies id.",
 			"date":"01/01/2019",
 			"preview":"project7.jpg",
 			"info":"1.txt",
 			"dossier":"1.pdf",
 			"video":"294614669",
-			"author":1
+			"author":7
 		},
 		
 		"8":{
-			"title":"Proin dignissim",
+			"title":"Impresión y escaneo",
 			"description":"Proin dignissim sapien quis est viverra, non laoreet risus sagittis.",
 			"date":"02/04/2019",
 			"preview":"project8.jpg",
 			"dossier":"1.pdf",
 			"info":"2.txt",
 			"video":"334681285",
-			"author":2
+			"author":8
 		},
 		
 		"9":{
-			"title":"Aenean commodo",
+			"title":"Arte y Tecnologías Creativas",
 			"description":"Aenean commodo est eu augue luctus, vel bibendum lorem ultricies.",
 			"date":"01/01/2019",
 			"preview":"project9.jpg",
 			"dossier":"1.pdf",
 			"info":"1.txt",
 			"video":"335295041",
-			"author":1
+			"author":9
 		}
 }

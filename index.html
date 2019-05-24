@@ -15,7 +15,7 @@
   <link href="https://fonts.googleapis.com/css?family=Raleway:800" rel="stylesheet">
   
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link href="css/mesh.css?15" rel="stylesheet">
+  <link href="css/mesh.css?18" rel="stylesheet">
 
 
   <!--<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>-->
@@ -78,68 +78,81 @@
 	   	</div>
 		</div>
 	</section>
+	<div id="contact">
+    <div class="contact_wrapper container">
+     <div class="row">
+   	<div class="col-md-6 col-xs-12">
+   			<h2>Contacto</h2>
+      		<p class="contact_info">Rellena el formulario para ponerte en contacto con nosotros o 
+      			suscribirte a nuestra newsletter.</p>
+	  			<div class="form-group">
+					<div class="custom-control custom-checkbox" id="check_subscription">
+  						<input type="checkbox" class="custom-control-input">
+  						<label class="custom-control-label" for="customCheck1">Suscribirse a la newsletter</label>
+					</div>
+   			</div>
+   			<div class="contact_result result_ok bg-info">
+					<span class="btn_lbl btn_lbl_send">
+						Mensaje recibido! te responderemos lo antes posible. Gracias.
+					</span>	
+					<span class="btn_lbl btn_lbl_subscribe hidden">
+						Suscripción a newsletter realizada. Gracias.
+					</span>	
+				</div>
+				<div class="contact_result bg-warning error_empty">
+					Se deben rellenar todos los campos del formulario.
+				</div>
+				<div class="contact_result bg-warning error_email">
+					Parece que el email no es correcto.
+				</div>  		
+				<div class="contact_result bg-warning error_remail">
+					Los emails no coinciden.
+				</div>  		
+				<div class="contact_result error_server bg-danger">
+					Se ha producido un error inesperado, por favor inténtalo de nuevo.
+				</div>  	
+				<div class="loading sending text-left hidden"><div class="lds-facebook"><div></div><div></div><div></div></div></div>	
+   	</div>
+   	<div class="col-md-6 col-xs-12">
+   	     <form id="contact_form" autocomplete="on">
+   	     	  	<div class="form-group">
+		  				<input type="text" class="form-control position-static" id="contact_name"  
+    						placeholder="nombre" autocomplete="on">
+	  					<input type="email" class="form-control position-static" id="contact_email"  
+    						placeholder="email" autocomplete="on">
+    					<input type="email" class="form-control position-static" id="contact_remail" 
+    						placeholder="reescribir email" autocomplete="on">
+    					<!--<input type="text" class="form-control position-static" id="contact_comment" 
+    						placeholder="comment" autocomplete="on">-->	
+    					<textarea class="form-control position-static no_subscription" id="contact_message" rows="3" 
+    						placeholder="mensaje"></textarea>
+  					</div>
+ 					<button id="btn_contact" type="submit" class="btn btn-info float-right">
+  							<span class="btn_lbl btn_lbl_send">Enviar mensaje</span>
+  							<span class="btn_lbl btn_lbl_subscribe hidden">Suscribirse</span>
+  					</button>
+	 	 		</form>
+			</div>
+		</div>
+    </div>
+	</div>
 
 <!--	<div w3-include-HTML="foot.html?2"></div>
 	<script>w3.includeHTML();</script>
 -->
-<div class="foot row">
-	<div class="col-md-6">
-		<img class="foot_logo" src="img/mesh_logo_white.svg" alt="mesh logo">
-		<h2 class="foot_title">Maker Education Science Hack</h2>
-		<br/>
-		<p>Con el soporte de l'Ajuntament de Barcelona</p>
-		<p>
-		Technology of love by SokoTech<br/>
-		<a class="text-warning" target="_new" href="https://soko.tech">www.soko.tech</a> | mesh@soko.tech<br/>
-		</p>
-	</div>
-   <div id="contact" class="col-md-6">
-   
-     <form id="contact_form" autocomplete="on">
-      <p>Rellena el formulario para ponerte en contacto con nosotros o suscribirte a nuestra newsletter.</p>
-	  	<div class="form-group">
-			
-			<div class="custom-control custom-checkbox" id="check_subscription">
-  				<input type="checkbox" class="custom-control-input">
-  				<label class="custom-control-label" for="customCheck1">Suscripción</label>
-			</div>
-	  		<input type="text" class="form-control position-static" id="contact_name"  
-    			placeholder="nombre" autocomplete="on">
-	  		<input type="email" class="form-control position-static" id="contact_email"  
-    			placeholder="email" autocomplete="on">
-    		<input type="email" class="form-control position-static" id="contact_remail" 
-    			placeholder="reescribir email" autocomplete="on">
-    		<textarea class="form-control position-static no_subscription" id="contact_message" rows="3" 
-    			placeholder="mensaje"></textarea>
-	
-			<div class="contact_result result_ok text-white">
-					<span class="btn_lbl btn_lbl_send">
-						Mensaje recibido! te responderemos lo antes posible. Gracias.
-					</span>	
-					<span class="btn_lbl btn_lbl_subscription hidden">
-						Suscripción a newsletter realizada. Gracias.
-					</span>	
-			</div>
-			<div class="contact_result text-warning error_empty">
-					Se deben rellenar todos los campos del formulario.
-			</div>
-			<div class="contact_result text-warning error_email">
-					Parece que el email no es correcto.
-			</div>  		
-			<div class="contact_result text-warning error_remail">
-					Los emails no coinciden.
-			</div>  		
-			<div class="contact_result error_server text-danger">
-					Se ha producido un error inesperado, por favor inténtalo de nuevo.
-			</div>  		
-  		</div>
- 
-  		<div class="loading sending text-right hidden"><div class="lds-facebook"><div></div><div></div><div></div></div></div>
-  		<button id="btn_contact" type="submit" class="btn btn-info float-right">
-  			<span class="btn_lbl btn_lbl_send">Enviar mensaje</span>
-  			<span class="btn_lbl btn_lbl_subscribe hidden">Suscribirse</span>
-  		</button>
-	  </form>
+<div class="foot">
+	<p class="foot_text lead text-center">Technology of <span style="color:#FFc0c0">love</span> by </p>
+	<div class="row">
+		<div class="col-md-4 col-sm-12 align-self-center abg-warning">
+			<img class="foot_logo logo_manel" src="img/logos/pare_manel.png" alt="Fundació Pare Manel Logo"/>
+		</div>
+		<div class="col-md-4 col-sm-12 align-self-center abg-info">
+			<img class="foot_logo logo_soko" src="img/logos/soko_tech.png" alt="Soko Tech Logo"/>
+		</div>			
+		<div class="col-md-4 col-sm-12 align-self-center abg-white">
+			<p class="small">Con el soporte de l'Ajuntament de Barcelona</p>
+			<img class="foot_logo logo_bcn" src="img/logos/bcn_activa.png" alt="Bcn Activa Logo"/>
+		</div>  
 	</div>
 </div>
 

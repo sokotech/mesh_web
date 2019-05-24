@@ -46,25 +46,56 @@ h1, h2, h3, h4, h5, h6 {
 	color:white;
 	margin:0;
 	width:100%;
-	padding:60px 20px 40px 20px;
+	padding:20px 20px 60px 20px;
+}
+.foot .foot_text
+{
+	margin-bottom:40px;
+	padding-bottom:20px;
+	border-bottom:1px dotted #555;
+}
+.foot img
+{
+	width:80%; /*260px 450px*/
+	amargin:auto;
+	display:block;
+}
+.foot .logo_manel
+{
+	width:60%;
+	margin:auto;
+}
+.foot .logo_soko
+{
+	width:70%;
+	margin:auto;
 }
 
-.foot_logo
-{
-	width:280px; /*260px 450px*/
-	margin-bottom:5px;
-}
-.foot_title
-{
-	font-size:15px; /*14px 24px*/
-	text-transform: uppercase;
-}
 
-/* ---- form -------------- */
+/* ---- contact -------------- */
+#contact
+{
+	padding:100px 100px 100px 100px;
+	background:#eee;
+}
+#contact h2
+{
+	text-transform:uppercase;
+}
+.contact_wrapper
+{
+	background:#fff;
+	padding:50px 50px 50px 50px;
+	border-radius:10px;
+}
+.contact_info
+{
+	margin-bottom:30px;
+}
 #contact_form input, #contact_form textarea
 {
 	padding:5px;
-	margin-bottom:5px;
+	margin-bottom:15px;
 	aborder-radius:5px 5px 0 0;
 }
 #contact_form .custom-checkbox
@@ -74,7 +105,11 @@ h1, h2, h3, h4, h5, h6 {
 .contact_result
 {
 	display:none;
-	margin-top:10px;
+	margin-top:30px;
+	margin-right:40px;
+	padding:10px;
+	color:white;
+	border-radius:5px;
 }
 #btn_contact
 {
@@ -82,7 +117,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .sending div div
 {
-	background:white !important;
+	abackground:white !important;
 }
 /* ---- head -------------- */
 

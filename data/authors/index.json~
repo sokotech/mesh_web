@@ -1,14 +1,49 @@
 {
 		
 		"1":{
-			"name":"Bruce Banner",
+			"name":"Efraín Foglia",
 			"picture":"bruce_banner.jpg",
-			"bio":"Dr. en radiación Gamma por la universidad de Standford. Ha trabajado para el departamento de defensa de los EEUU durante más de 5 años, actividad que dejó par centrarse en sus propias investigaciones."	
+			"bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mollis luctus leo eu ultricies. Mauris consequat facilisis rhoncus. Praesent porttitor tortor pellentesque, gravida turpis ut, commodo felis. Ut et auctor purus, id sagittis turpis. Nulla eu sem nibh. Phasellus mauris nulla, volutpat id facilisis sit amet, pulvinar at metus. Suspendisse vitae dui felis. Suspendisse vel tincidunt elit."	
 		},
 		"2":{
+			"name":"Margarita Padilla",
+			"picture":"tony_stark.jpg",
+			"bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mollis luctus leo eu ultricies. Mauris consequat facilisis rhoncus. Praesent porttitor tortor pellentesque, gravida turpis ut, commodo felis. Ut et auctor purus, id sagittis turpis. Nulla eu sem nibh. Phasellus mauris nulla, volutpat id facilisis sit amet, pulvinar at metus. Suspendisse vitae dui felis. Suspendisse vel tincidunt elit."	
+		},
+		"3":{
 			"name":"Tony Stark",
 			"picture":"tony_stark.jpg",
-			"bio":"CEO de Stark Enterprise, magnate, playboy, genio y millonario."	
+			"bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mollis luctus leo eu ultricies. Mauris consequat facilisis rhoncus. Praesent porttitor tortor pellentesque, gravida turpis ut, commodo felis. Ut et auctor purus, id sagittis turpis. Nulla eu sem nibh. Phasellus mauris nulla, volutpat id facilisis sit amet, pulvinar at metus. Suspendisse vitae dui felis. Suspendisse vel tincidunt elit."	
+		},
+		"4":{
+			"name":"Tony Stark",
+			"picture":"tony_stark.jpg",
+			"bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mollis luctus leo eu ultricies. Mauris consequat facilisis rhoncus. Praesent porttitor tortor pellentesque, gravida turpis ut, commodo felis. Ut et auctor purus, id sagittis turpis. Nulla eu sem nibh. Phasellus mauris nulla, volutpat id facilisis sit amet, pulvinar at metus. Suspendisse vitae dui felis. Suspendisse vel tincidunt elit."	
+		},
+		"5":{
+			"name":"Tony Stark",
+			"picture":"tony_stark.jpg",
+			"bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mollis luctus leo eu ultricies. Mauris consequat facilisis rhoncus. Praesent porttitor tortor pellentesque, gravida turpis ut, commodo felis. Ut et auctor purus, id sagittis turpis. Nulla eu sem nibh. Phasellus mauris nulla, volutpat id facilisis sit amet, pulvinar at metus. Suspendisse vitae dui felis. Suspendisse vel tincidunt elit."	
+		},
+		"6":{
+			"name":"Tony Stark",
+			"picture":"tony_stark.jpg",
+			"bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mollis luctus leo eu ultricies. Mauris consequat facilisis rhoncus. Praesent porttitor tortor pellentesque, gravida turpis ut, commodo felis. Ut et auctor purus, id sagittis turpis. Nulla eu sem nibh. Phasellus mauris nulla, volutpat id facilisis sit amet, pulvinar at metus. Suspendisse vitae dui felis. Suspendisse vel tincidunt elit."	
+		},
+		"7":{
+			"name":"Tony Stark",
+			"picture":"tony_stark.jpg",
+			"bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mollis luctus leo eu ultricies. Mauris consequat facilisis rhoncus. Praesent porttitor tortor pellentesque, gravida turpis ut, commodo felis. Ut et auctor purus, id sagittis turpis. Nulla eu sem nibh. Phasellus mauris nulla, volutpat id facilisis sit amet, pulvinar at metus. Suspendisse vitae dui felis. Suspendisse vel tincidunt elit."	
+		},
+		"8":{
+			"name":"Tony Stark",
+			"picture":"tony_stark.jpg",
+			"bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mollis luctus leo eu ultricies. Mauris consequat facilisis rhoncus. Praesent porttitor tortor pellentesque, gravida turpis ut, commodo felis. Ut et auctor purus, id sagittis turpis. Nulla eu sem nibh. Phasellus mauris nulla, volutpat id facilisis sit amet, pulvinar at metus. Suspendisse vitae dui felis. Suspendisse vel tincidunt elit."	
+		},
+		"9":{
+			"name":"Tony Stark",
+			"picture":"tony_stark.jpg",
+			"bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mollis luctus leo eu ultricies. Mauris consequat facilisis rhoncus. Praesent porttitor tortor pellentesque, gravida turpis ut, commodo felis. Ut et auctor purus, id sagittis turpis. Nulla eu sem nibh. Phasellus mauris nulla, volutpat id facilisis sit amet, pulvinar at metus. Suspendisse vitae dui felis. Suspendisse vel tincidunt elit."	
 		}
 		
 }
