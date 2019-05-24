@@ -111,7 +111,7 @@
 				<div class="contact_result error_server bg-danger">
 					Se ha producido un error inesperado, por favor inténtalo de nuevo.
 				</div>  	
-				<div class="loading sending text-center hidden"><div class="lds-facebook"><div></div><div></div><div></div></div></div>	
+				<div class="loading sending text-left hidden"><div class="lds-facebook"><div></div><div></div><div></div></div></div>	
    	</div>
    	<div class="col-md-6 col-xs-12">
    	     <form id="contact_form" autocomplete="on">
@@ -137,9 +137,9 @@
     </div>
 	</div>
 
-<!--	<div w3-include-HTML="foot.html?2"></div>
+	<div w3-include-HTML="foot.html?3"></div>
 	<script>w3.includeHTML();</script>
--->
+<!--
 <div class="foot">
 	<p class="foot_text lead text-center">Technology of <span style="color:#FFc0c0">love</span> by </p>
 	<div class="row">
@@ -155,7 +155,7 @@
 		</div>  
 	</div>
 </div>
-
+-->
 	<div id="dummy" class="hidden">
 	 	<div class="project_item col-md-4">
       	<a class="project_link" href="#">
