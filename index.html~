@@ -15,7 +15,7 @@
   <link href="https://fonts.googleapis.com/css?family=Raleway:800" rel="stylesheet">
   
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link href="css/mesh.css?18" rel="stylesheet">
+  <link href="css/mesh.css?19" rel="stylesheet">
 
 
   <!--<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>-->
@@ -24,7 +24,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
   <!--<script src="./js/bootstrap.min.js"></script>-->
-  <script src="js/mesh.js?40"></script>
+  <script src="js/mesh.js?41"></script>
   <script src="js/w3.js"></script>
 
 </head>
@@ -137,25 +137,9 @@
     </div>
 	</div>
 
-	<div w3-include-HTML="foot.html?3"></div>
+	<div w3-include-HTML="foot.html?6"></div>
 	<script>w3.includeHTML();</script>
-<!--
-<div class="foot">
-	<p class="foot_text lead text-center">Technology of <span style="color:#FFc0c0">love</span> by </p>
-	<div class="row">
-		<div class="col-md-4 col-sm-12 align-self-center abg-warning">
-			<img class="foot_logo logo_manel" src="img/logos/pare_manel.png" alt="Fundació Pare Manel Logo"/>
-		</div>
-		<div class="col-md-4 col-sm-12 align-self-center abg-info">
-			<img class="foot_logo logo_soko" src="img/logos/soko_tech.png" alt="Soko Tech Logo"/>
-		</div>			
-		<div class="col-md-4 col-sm-12 align-self-center abg-white">
-			<p class="small">Con el soporte de l'Ajuntament de Barcelona</p>
-			<img class="foot_logo logo_bcn" src="img/logos/bcn_activa.png" alt="Bcn Activa Logo"/>
-		</div>  
-	</div>
-</div>
--->
+
 	<div id="dummy" class="hidden">
 	 	<div class="project_item col-md-4">
       	<a class="project_link" href="#">

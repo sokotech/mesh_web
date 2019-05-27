@@ -52,23 +52,30 @@ h1, h2, h3, h4, h5, h6 {
 {
 	margin-bottom:40px;
 	padding-bottom:20px;
-	border-bottom:1px dotted #555;
+	aborder-bottom:1px dotted #555;
+}
+.foot .col_logo
+{
+	text-align:center;
+}
+.foot a
+{
+	display:block;
 }
 .foot img
 {
 	width:80%; /*260px 450px*/
-	amargin:auto;
+	max-width:400px;	
+	margin:auto;
 	display:block;
 }
 .foot .logo_manel
 {
 	width:60%;
-	margin:auto;
 }
 .foot .logo_soko
 {
 	width:70%;
-	margin:auto;
 }
 
 
@@ -106,7 +113,7 @@ h1, h2, h3, h4, h5, h6 {
 {
 	display:none;
 	margin-top:30px;
-	margin-right:20px;
+	margin-right:40px;
 	padding:10px;
 	color:white;
 	border-radius:5px;
@@ -321,5 +328,92 @@ h1, h2, h3, h4, h5, h6 {
 	margin-bottom:20px;
 }
 
+/* ---- RESPONSIVE -----------------*/
 
+@media (max-width: 768px) {
+/* ---- head -----------------*/
+#mesh-hero-bg-graphic
+{
+	width:100%;
+}
+#mesh-hero-title
+{
+	padding:50px 10px;
+	line-height: 1;
+	font-size:50px;
+	bottom:0;
+	right:auto;
+	top:auto;
+	margin:0;
+}
+.hero-container
+{
+	overflow:hidden;
+}
+/* ---- projects -----------------*/
+.projects
+{
+	padding:60px 0 40px 0;
+}
+#projects
+{
+	padding-top:70px;
+}
+#projects h1
+{
+	margin-bottom:20px;
+}
+/* ---- contact -----------------*/
+#contact
+{
+	padding:70px 10px;
+}
+.contact_wrapper
+{
+	padding:50px 10px;
+}
+#check_subscription
+{
+	margin-bottom:20px;
+}
+.contact_result
+{
+	margin:0 0 30px 0;
+}
 
+/* ---- foot -----------------*/
+.foot
+{
+	padding-top:50px;
+}	
+.col_logo
+{
+	margin-bottom:100px;
+}
+
+/* ---- project -----------------*/
+.project_info
+{
+	padding-top: 90px;
+}
+.col_project
+{
+	 padding-right:15px !important;
+}
+.col_bio
+{
+	margin-bottom:40px;
+}
+.project_wrapper
+{
+	margin-bottom:80px;
+}
+.project_wrapper h1
+{
+	margin-bottom:20px;
+}
+.project_video
+{
+	margin-bottom:20px;
+}
+}

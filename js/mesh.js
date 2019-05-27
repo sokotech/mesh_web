@@ -39,7 +39,7 @@ function show_project_info(prj)
      });   
    									     
 	$(".author_name").text(authors[projects[prj].author].name);
-	$(".author_bio").text(authors[projects[prj].author].bio);
+	$(".author_bio").html(authors[projects[prj].author].bio);
 	
 	$(".author_picture").attr("src","data/authors/pictures/"+authors[projects[prj].author].picture);
 }
@@ -85,9 +85,9 @@ function load_json(file,func)
 
 function load_data(func)
 {
-		load_json("data/projects/index.json?7",function(data){
+		load_json("data/projects/index.json?"+new Date().getTime(),function(data){
 			projects=data;
-			load_json("data/authors/index.json?7",function(data){
+			load_json("data/authors/index.json?"+new Date().getTime(),function(data){
 					authors=data;	
 					func();				
 				})
@@ -246,6 +246,8 @@ $(document).ready(function()
 
    $("#check_subscription").click(function()
     {
+    			if($(this).prop("disabled")) return(false);
+    			
 				var checked=$(this).find("input").prop('checked');	
 			   $(".btn_lbl").removeClass("hidden");
 				if(checked)
@@ -266,7 +268,8 @@ $(document).ready(function()
    	$(".contact_result").hide();   
    });
    $("#btn_contact").click(function()
-   {
+   {	  
+   
    	$(".contact_result").hide();
 		var name=$("#contact_name").val().trim();
 		var email=$("#contact_email").val().trim();
@@ -296,7 +299,7 @@ $(document).ready(function()
  						 //"comment":$("#contact_comment").val()};		
  	   if($("#check_subscription").find("input").prop('checked')) params["subscribe"]=1;
 		$.post("https://2017.steamconf.com/mesh/email.php",params)
-		//$.post("host/email.php",params)
+		//$.post("gandi/mesh/email.php",params)
 			   .done(function(data)
 			   {
 			   	//alert(data);
@@ -304,7 +307,11 @@ $(document).ready(function()
 					if(res.result=="ok") 
 					{
 			   		$(".sending").addClass("hidden");
-						$(".result_ok").show();		
+						$(".result_ok").show();	
+						
+						$("#contact input, #contact textarea").prop('disabled', true);
+   					$("#check_subscription").prop('disabled', true);
+										
 					}else{				
 						$("#btn_contact").removeClass("hidden");
 			   		$(".sending").addClass("hidden");

@@ -7,33 +7,33 @@
 		},
 		"2":{
 			"name":"Margarita Padilla",
-			"picture":"tony_stark.jpg",
-			"bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mollis luctus leo eu ultricies. Mauris consequat facilisis rhoncus. Praesent porttitor tortor pellentesque, gravida turpis ut, commodo felis. Ut et auctor purus, id sagittis turpis. Nulla eu sem nibh. Phasellus mauris nulla, volutpat id facilisis sit amet, pulvinar at metus. Suspendisse vitae dui felis. Suspendisse vel tincidunt elit."	
+			"picture":"margarita_padilla.jpg",
+			"bio":"Soy programadora de ordenadores en la <b>cooperativa Dabne</b>. Impulsora de Sindominio desde 1998 y activista por el software libre, me gusta pensar que trabajo “haciendo Internet”. Aprendí los usos sociales y políticos de GNU/Linux en centros sociales okupados, algo que en la universidad nunca me enseñaron. Desde entonces no he dejado de <b>indagar la relación entre lo social y nuevas tecnologías</b>. Me gusta moverme por las <b>intersecciones entre lo tecnológico y lo popular</b>, acercando las personas y, especialmente, a las mujeres y a los niños y niñas, a las tecnologías desde una perspectiva crítica, mediante actividades divertidas y rigurosas. Desde hace unos meses soy miembro del consejo rector de Som Connexió."	
 		},
 		"3":{
 			"name":"Alex Hache",
-			"picture":"tony_stark.jpg",
-			"bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mollis luctus leo eu ultricies. Mauris consequat facilisis rhoncus. Praesent porttitor tortor pellentesque, gravida turpis ut, commodo felis. Ut et auctor purus, id sagittis turpis. Nulla eu sem nibh. Phasellus mauris nulla, volutpat id facilisis sit amet, pulvinar at metus. Suspendisse vitae dui felis. Suspendisse vel tincidunt elit."	
+			"picture":"alex_hache.jpg",
+			"bio":"Ciberfeminista, amante de las tecnologías libres. Es editora de dos volúmenes sobre el panorama de las iniciativas de soberanía tecnológica y le gusta hacer talleres de ficción especulativa (futurotopías feministas) con amigas y activistas. Es parte del colectivo Donestech que explora la relación entre género y tecnologías desarrollando investigación acción, documentales y formación. Ha coordinado una red internacional para Tactical Tech llamada los institutos de género y tecnología que desarrolla formaciones y contenidos para incluir el género en la privacidad y la seguridad digital."	
 		},
 		"4":{
 			"name":"David Cuartielles",
-			"picture":"tony_stark.jpg",
+			"picture":"david_cuartielles.jpg",
 			"bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mollis luctus leo eu ultricies. Mauris consequat facilisis rhoncus. Praesent porttitor tortor pellentesque, gravida turpis ut, commodo felis. Ut et auctor purus, id sagittis turpis. Nulla eu sem nibh. Phasellus mauris nulla, volutpat id facilisis sit amet, pulvinar at metus. Suspendisse vitae dui felis. Suspendisse vel tincidunt elit."	
 		},
 		"5":{
 			"name":"Pamela Lustig",
-			"picture":"tony_stark.jpg",
+			"picture":"pamela_lustig.jpg",
 			"bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mollis luctus leo eu ultricies. Mauris consequat facilisis rhoncus. Praesent porttitor tortor pellentesque, gravida turpis ut, commodo felis. Ut et auctor purus, id sagittis turpis. Nulla eu sem nibh. Phasellus mauris nulla, volutpat id facilisis sit amet, pulvinar at metus. Suspendisse vitae dui felis. Suspendisse vel tincidunt elit."	
 		},
 		"6":{
 			"name":"Oscar Ciuró",
-			"picture":"tony_stark.jpg",
+			"picture":"oscar_ciuro.jpg",
 			"bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mollis luctus leo eu ultricies. Mauris consequat facilisis rhoncus. Praesent porttitor tortor pellentesque, gravida turpis ut, commodo felis. Ut et auctor purus, id sagittis turpis. Nulla eu sem nibh. Phasellus mauris nulla, volutpat id facilisis sit amet, pulvinar at metus. Suspendisse vitae dui felis. Suspendisse vel tincidunt elit."	
 		},
 		"7":{
 			"name":"Núria Alonso",
-			"picture":"tony_stark.jpg",
-			"bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mollis luctus leo eu ultricies. Mauris consequat facilisis rhoncus. Praesent porttitor tortor pellentesque, gravida turpis ut, commodo felis. Ut et auctor purus, id sagittis turpis. Nulla eu sem nibh. Phasellus mauris nulla, volutpat id facilisis sit amet, pulvinar at metus. Suspendisse vitae dui felis. Suspendisse vel tincidunt elit."	
+			"picture":"nuria_alonso.jpg",
+			"bio":"Ciberfeminista, amante de las tecnologías libres. Es editora de dos volúmenes sobre el panorama de las iniciativas de soberanía tecnológica y le gusta hacer talleres de ficción especulativa (futurotopías feministas) con amigas y activistas. Es parte del colectivo Donestech que explora la relación entre género y tecnologías desarrollando investigación acción, documentales y formación. Ha coordinado una red internacional para Tactical Tech llamada los institutos de género y tecnología que desarrolla formaciones y contenidos para incluir el género en la privacidad y la seguridad digital."	
 		},
 		"8":{
 			"name":"Belén Fernández",
@@ -41,9 +41,9 @@
 			"bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mollis luctus leo eu ultricies. Mauris consequat facilisis rhoncus. Praesent porttitor tortor pellentesque, gravida turpis ut, commodo felis. Ut et auctor purus, id sagittis turpis. Nulla eu sem nibh. Phasellus mauris nulla, volutpat id facilisis sit amet, pulvinar at metus. Suspendisse vitae dui felis. Suspendisse vel tincidunt elit."	
 		},
 		"9":{
-			"name":"Lolo y Sosaku",
-			"picture":"tony_stark.jpg",
-			"bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mollis luctus leo eu ultricies. Mauris consequat facilisis rhoncus. Praesent porttitor tortor pellentesque, gravida turpis ut, commodo felis. Ut et auctor purus, id sagittis turpis. Nulla eu sem nibh. Phasellus mauris nulla, volutpat id facilisis sit amet, pulvinar at metus. Suspendisse vitae dui felis. Suspendisse vel tincidunt elit."	
+			"name":"Lolo & Sosaku",
+			"picture":"lolo_sosaku.jpg",
+			"bio":"Trabajan como dúo artístico desde al año 2004 bajo el nombre de Lolo & Sosaku. Investigan las posibilidades de la <b>escultura como campo expandido</b>. El nexo que une sus trabajos es la búsqueda por un objeto en contacto con su entorno y con el espectador. Un objeto que busca fricción, roce, y tensión. Su obra se mueve entre distintos lenguajes como la escultura, la instalación, el arte cinético y la pintura. Su modus operandi: constituirse como sujeto, y desde su materialidad maquínica, apuntar a la trascendencia, al misticismo y a lo desconocido."	
 		}
 		
 }
