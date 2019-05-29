@@ -1,3 +1,6 @@
-- [ws.js] Optimizar código de carga de nav y foot sin ws.js
-- [email.php] Controlar respuesta de mailchimp en suscripción.
-- [email.php] Email para usuarios en suscripción y mensaje?
+- Email para usuarios en suscripción y mensaje? (email.php).
+- Importar nav desde html
+
+- Dominio.
+- Netlify.
+- Email de contacto correcto (email.php).

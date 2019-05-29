@@ -46,13 +46,11 @@ h1, h2, h3, h4, h5, h6 {
 	color:white;
 	margin:0;
 	width:100%;
-	padding:20px 20px 60px 20px;
+	padding:40px 20px 40px 20px;
 }
 .foot .foot_text
 {
-	margin-bottom:40px;
-	padding-bottom:20px;
-	aborder-bottom:1px dotted #555;
+	margin-bottom:20px;
 }
 .foot .col_logo
 {
@@ -64,18 +62,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 .foot img
 {
-	width:90%; /*260px 450px*/
-	max-width:400px;	
+	width:300px;	
 	margin:auto;
 	display:block;
 }
 .foot .logo_manel
 {
-	width:60%;
+	width:140px;
+	margin:0 40px 0 0;
+	display:inline-block;
 }
 .foot .logo_soko
 {
-	width:70%;
+	width:180px;
+	margin:0 0 0 20px;
+	display:inline-block;
 }
 
 
@@ -388,9 +389,31 @@ h1, h2, h3, h4, h5, h6 {
 }	
 .col_logo
 {
-	margin-bottom:100px;
+	margin-bottom:60px;
 }
 
+.foot img
+{
+	width:90%;	
+	margin:auto;
+	display:block;
+}
+.foot .logo_manel
+{
+	width:50%;
+	margin:auto;
+	display:block;
+}
+.foot .logo_soko
+{
+	width:60%;
+	margin:auto;
+	display:block;
+}
+.foot .row
+{
+	margin-bottom:30px;
+}
 /* ---- project -----------------*/
 .project_info
 {

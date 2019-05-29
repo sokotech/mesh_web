@@ -15,6 +15,25 @@ function getUrlVars()
 	return(vars);
 }
 
+function loadHTML(elem)
+{
+	fetch($(elem).attr("include-HTML"))
+		.then(function(response) {
+   				 return response.text();
+		}).then(function(text) {
+		  		//alert(text);
+    			$(elem).html(text);
+		});
+}
+function includeHTML()
+{
+  var imports=$("[include-HTML]");
+  for(a=0;a<imports.length;a++)
+  {
+  		loadHTML(imports[a]);
+		$(imports[a]).removeAttr("include-HTML");  	
+  }  
+}
 
 function email_isvalid(email)
 {
@@ -39,7 +58,7 @@ function show_project_info(prj)
      });   
    									     
 	$(".author_name").text(authors[projects[prj].author].name);
-	$(".author_bio").text(authors[projects[prj].author].bio);
+	$(".author_bio").html(authors[projects[prj].author].bio);
 	
 	$(".author_picture").attr("src","data/authors/pictures/"+authors[projects[prj].author].picture);
 }
@@ -136,10 +155,10 @@ function init_mesh(mesh)
 	$(mesh).find("polyline").hide();
 	$(mesh).find("polygon").hide();
 	lines=$(mesh).find("line");	
-	console.log("Lines: "+lines.length);
+	//console.log("Lines: "+lines.length);
 	
 	var c=$(mesh).find("circle");
-	console.log("Circles: "+c.length);
+	//console.log("Circles: "+c.length);
 	for(a=0;a<c.length;a++) //c.length;a++)
 	{
   	   //console.log("Circle: "+a);
@@ -206,6 +225,8 @@ function animate_mesh(mesh)
 
 $(document).ready(function()
 {
+	$("#contact_comment").hide();	
+	
 	if($(".projects_grid").length>0)
 		load_data(function()
 			{
@@ -231,15 +252,18 @@ $(document).ready(function()
    }	
 
    $(".nav-link").click(function(event){
-   		var target = $(this).attr("href");
-   		if(target.length) 
+			var parts = $(this).attr("href").split("#");   		
+			if(parts.length==1) return;
+			
+   		var target = $("#"+parts[1]);   		
+   		if($(target).length) 
 			{
 				if($(target).length)
 				{
 					event.preventDefault();
 			   	$('html, body').stop().animate({
             		scrollTop: $(target).offset().top
-        			},1000);
+        			},500);
         		}
         	}
    });
@@ -275,6 +299,7 @@ $(document).ready(function()
 		var email=$("#contact_email").val().trim();
 		var remail=$("#contact_remail").val().trim();
 		var msg=$("#contact_message").val().trim();
+		var comment=$("#contact_comment").val();
 		if((((email.length==0) || (remail.length==0)) || (name.length==0)) ||
 					((msg.length==0) && (!$("#check_subscription").find("input").prop('checked')))) 
 		{
@@ -295,8 +320,8 @@ $(document).ready(function()
 		$(this).addClass("hidden");
 		$(".sending").removeClass("hidden");
 				
- 		var params={"function": "contact", "name":name, "email":email,"text":msg, "lng": lng};
- 						 //"comment":$("#contact_comment").val()};		
+ 		var params={"function": "contact", "name":name, "email":email,"text":msg, "lng": lng,
+ 						 "comment":comment};		
  	   if($("#check_subscription").find("input").prop('checked')) params["subscribe"]=1;
 		$.post("https://2017.steamconf.com/mesh/email.php",params)
 		//$.post("gandi/mesh/email.php",params)
@@ -304,6 +329,8 @@ $(document).ready(function()
 			   {
 			   	//alert(data);
 			   	var res=JSON.parse($.trim(data));
+			   	//console.log(res);
+			   	
 					if(res.result=="ok") 
 					{
 			   		$(".sending").addClass("hidden");

@@ -1,4 +1,5 @@
-- Retornos de línea en textarea al enviar mensaje (mesh.js).
-- Optimizar código de carga de nav y foot sin ws.js (mesh.js).
-- Controlar respuesta de mailchimp en suscripción (email.php).
 - Email para usuarios en suscripción y mensaje? (email.php).
+
+- Dominio.
+- Netlify.
+- Email de contacto correcto (email.php).

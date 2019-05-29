@@ -7,7 +7,7 @@
   
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="img/favicon.png" type="image/png">
   <!--<link href="./css/bootstrap.min.css" rel="stylesheet">-->
   <link href="css/loading.css?4" rel="stylesheet">
   
@@ -15,7 +15,7 @@
   <link href="https://fonts.googleapis.com/css?family=Raleway:800" rel="stylesheet">
   
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link href="css/mesh.css?19" rel="stylesheet">
+  <link href="css/mesh.css?21" rel="stylesheet">
 
 
   <!--<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>-->
@@ -24,38 +24,16 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
   <!--<script src="./js/bootstrap.min.js"></script>-->
-  <script src="js/mesh.js?41"></script>
-  <script src="js/w3.js"></script>
+  <script src="js/mesh.js?44"></script>
 
 </head>
 
-<body>
-    <!--<div w3-include-HTML="nav.html?6"></div>-->
-   
-  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="."><img src="img/mesh_logo_white.svg" alt="mesh logo"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-items" aria-controls="navbar-items" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse justify-content-end" id="navbar-items">
-      <ul class="navbar-nav">
-        <li class="nav-item aactive">
-          <a class="nav-link" href="body">Inicio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#projects">Proyectos</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#contact">Contacto</a>
-        </li>
-      </ul>
-    </div>
-   </nav>    
+<body id="home">
+    <div include-HTML="nav.html?6"></div>
    
    <section class="home-hero">
 	  <div class="container-fluid hero-container home-bg">
-		   <object id="mesh-hero-bg-graphic" type="image/svg+xml" data-svg="img/mesh-bg-04.svg"></object>    
+		   <object id="mesh-hero-bg-graphic" type="image/svg+xml" data-svg="img/mesh_bg.svg"></object>    
 	      <h1 id="mesh-hero-title" class="fluid">Maker<br/>Education<br/>Science Hack</h1>
 	   </div>  
    </section>
@@ -91,7 +69,7 @@
   						<label class="custom-control-label" for="customCheck1">Suscribirse a la newsletter</label>
 					</div>
    			</div>
-   			<div class="contact_result result_ok bg-info">
+   			<div class="contact_result result_ok bg-success">
 					<span class="btn_lbl btn_lbl_send">
 						Mensaje recibido! te responderemos lo antes posible. Gracias.
 					</span>	
@@ -122,8 +100,8 @@
     						placeholder="email" autocomplete="on">
     					<input type="email" class="form-control position-static" id="contact_remail" 
     						placeholder="reescribir email" autocomplete="on">
-    					<!--<input type="text" class="form-control position-static" id="contact_comment" 
-    						placeholder="comment" autocomplete="on">-->	
+    					<input type="text" class="form-control position-static" id="contact_comment" 
+    						placeholder="comentario" autocomplete="on">	
     					<textarea class="form-control position-static no_subscription" id="contact_message" rows="3" 
     						placeholder="mensaje"></textarea>
   					</div>
@@ -137,8 +115,9 @@
     </div>
 	</div>
 
-	<div w3-include-HTML="foot.html?6"></div>
-	<script>w3.includeHTML();</script>
+	<div include-HTML="foot.html?7"></div>
+	<script>includeHTML("foot.html?7");</script>
+	
 
 	<div id="dummy" class="hidden">
 	 	<div class="project_item col-md-4">
