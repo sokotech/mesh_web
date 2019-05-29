@@ -60,7 +60,7 @@
 	</div>
 	
   	<div include-HTML="foot.html?7"></div>
-	<script>includeHTML("foot.html?7");</script>	
+	<script>includeHTML();</script>	
 		
 </body>	
 </html>
