@@ -2,8 +2,8 @@
 		
 		"1":{
 			"name":"Efraín Foglia",
-			"picture":"bruce_banner.jpg",
-			"bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mollis luctus leo eu ultricies. Mauris consequat facilisis rhoncus. Praesent porttitor tortor pellentesque, gravida turpis ut, commodo felis. Ut et auctor purus, id sagittis turpis. Nulla eu sem nibh. Phasellus mauris nulla, volutpat id facilisis sit amet, pulvinar at metus. Suspendisse vitae dui felis. Suspendisse vel tincidunt elit."	
+			"picture":"efrain_foglia.jpg",
+			"bio":"Efraín Foglia es diseñador en interacciones digitales, investigador y docente. Su trabajo se posiciona en la intersección entre el diseño, el activismo ciudadano y las tecnologías en red. Sus investigaciones abarcan desde la neurociencia y su relación con la comunicación alternativa, las iraestructuras basadas en mesh networks y los posibles futuros de Internet, así como los nuevos paradigmas en el diseño. Cofundador de guifi.net, la red de telecomunicaciones autogestionada más grande del mundo. Es promotor de infraestructuras abiertas en España, México y Reino Unido y de comunidades de práctica autogestionadas. Trabaja con instituciones culturales, universidades y centros educativos y de investigación científica."	
 		},
 		"2":{
 			"name":"Margarita Padilla",
@@ -18,27 +18,27 @@
 		"4":{
 			"name":"David Cuartielles",
 			"picture":"david_cuartielles.jpg",
-			"bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mollis luctus leo eu ultricies. Mauris consequat facilisis rhoncus. Praesent porttitor tortor pellentesque, gravida turpis ut, commodo felis. Ut et auctor purus, id sagittis turpis. Nulla eu sem nibh. Phasellus mauris nulla, volutpat id facilisis sit amet, pulvinar at metus. Suspendisse vitae dui felis. Suspendisse vel tincidunt elit."	
-		},
+			"bio":"David Cuartielles es PhD. en Diseño de Interacción y MSc. en Ingeniería de Telecomunicaciones. Cofundador de la plataforma de código abierto Arduino y fundador del laboratorio IOIO de la Universidad de Malmo.<br><br>Actualmente es investigador en el centro de Internet de las Cosas y las Personas en la Universidad de Malmo, donde también imparte formación en  tecnologías interactivas. Su trabajo de investigación incluye análisis de la creación de plataformas, prototipos y herramientas de prueba para la educación, y el estudio de los lenguajes de programación visual.<br><br>También colabora con varias universidades como educador en los campos del arte interactivo, la codificación creativa, el diseño de interacción y la tecnología integrada."
+			},
 		"5":{
 			"name":"Pamela Lustig",
 			"picture":"pamela_lustig.jpg",
-			"bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mollis luctus leo eu ultricies. Mauris consequat facilisis rhoncus. Praesent porttitor tortor pellentesque, gravida turpis ut, commodo felis. Ut et auctor purus, id sagittis turpis. Nulla eu sem nibh. Phasellus mauris nulla, volutpat id facilisis sit amet, pulvinar at metus. Suspendisse vitae dui felis. Suspendisse vel tincidunt elit."	
+			"bio":"Licenciada en diseño industrial por la Universidad de Buenos Aires. Empezó su carrera profesional en el diseño de productos y la impresión en 3D. En 2013, se trasladó a Barcelona y se unió a CIM-UPC, donde se especializó en la fabricación digital. Ha colaborando en el diseño de impresoras  3D y participando en proyectos en los Ateneus de Fabricació de la ciudad, trabajando junto a diversos colectivos en la aplicación de estas tecnologías.<br><br>Actualmente compagina la formación en fabricación digital con el trabajo en un proyecto social de impresión en 3D en el ámbito de la salud."	
 		},
 		"6":{
 			"name":"Oscar Ciuró",
 			"picture":"oscar_ciuro.jpg",
-			"bio":"Diplomado en Educación Social. Máster en Aplicaciones Multimedia. Experto en Fabricación Digital. Me muevo en la intersección de la educación social, la cultura y las nuevas tecnologías. Soy profesor de Transmedia y Economías colaborativas. He realizado charlas y formaciones relativas a las nuevas tecnologías, la educación social y la cultura en diversas ciudades de Latinoamérica y el Estado Español.<br><br>He coordinado la especialización en Industrias Culturales del Máster de Gestión de Instituciones y Empresas Culturales de la UB, el proyecto Camon - Laboratorio de Nuevas Tecnologías en Alicante, Murcia y Madrid y el proyecto participativo Ciudad Beta para CEESC. Llevo más de 15 años pensando y produciendo proyectos europeos en colaboración con diversas entidades, centradas en la investigación, prototipado y desarrollo de nuevos modelos formativos para los sectores de la educación, la gestión cultural y la fabricación digital.<br><br>Coordino el proyecto MakerConvent, un pequeño referente en el ámbito del edumaking."	
+			"bio":"Diplomado en Educación Social. Máster en Aplicaciones Multimedia. Experto en Fabricación Digital. Me muevo en la intersección de la educación social, la cultura y las nuevas tecnologías. Soy profesor de Transmedia y Economías colaborativas. He realizado charlas y formaciones relativas a las nuevas tecnologías, la educación social y la cultura en diversas ciudades de Latinoamérica y el Estado Español.<br><br>He coordinado la especialización en Industrias Culturales del Máster de Gestión de Instituciones y Empresas Culturales de la UB, el proyecto Camon - Laboratorio de Nuevas Tecnologías en Alicante, Murcia y Madrid y el proyecto participativo Ciudad Beta para CEESC. Llevo más de 15 años pensando y produciendo proyectos europeos en colaboración con diversas entidades, centradas en la investigación, prototipado y desarrollo de nuevos modelos formativos para los sectores de la educación, la gestión cultural y la fabricación digital. Coordino el proyecto MakerConvent, un pequeño referente en el ámbito del edumaking."	
 		},
 		"7":{
 			"name":"Núria Alonso",
 			"picture":"nuria_alonso.jpg",
-			"bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mollis luctus leo eu ultricies. Mauris consequat facilisis rhoncus. Praesent porttitor tortor pellentesque, gravida turpis ut, commodo felis. Ut et auctor purus, id sagittis turpis. Nulla eu sem nibh. Phasellus mauris nulla, volutpat id facilisis sit amet, pulvinar at metus. Suspendisse vitae dui felis. Suspendisse vel tincidunt elit."	
+			"bio":"Licenciada en Bellas Artes reconvertida a técnica informática. Apasionada de GNU/Linux y todo lo que lleve licencias abiertas, donde siempre se puede aprender más y más. Desde hace años colabora en proyectos que piensan como incorporar la tecnología para mejorar nuestra sociedad. Socia de Colectic, cooperativa sin ánimo de lucro que impulsa proyectos tecnológicos que incluyan valores de responsabilidad social. Trabajando por una tecnología abierta, libre, feminista y reciclable."	
 		},
 		"8":{
 			"name":"Belén Fernández",
-			"picture":"tony_stark.jpg",
-			"bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mollis luctus leo eu ultricies. Mauris consequat facilisis rhoncus. Praesent porttitor tortor pellentesque, gravida turpis ut, commodo felis. Ut et auctor purus, id sagittis turpis. Nulla eu sem nibh. Phasellus mauris nulla, volutpat id facilisis sit amet, pulvinar at metus. Suspendisse vitae dui felis. Suspendisse vel tincidunt elit."	
+			"picture":"belen_fernandez.jpg",
+			"bio":"Apasionada de la fabricación digital, la arquitectura y la educación STEAM. Diplomada en Arquitectura Técnica por la Universitat Politècnica de Catalunya, posee un máster de Capacitación Pedagógica del Institut de Ciències de l’Educació.<br><br>Entusiasta del modelado 3D, el mundo maker y la filosofía DIY. Es formadora en diseño 3D desde hace casi 20 años y coordinadora de proyectos en el FAB Casa del Mig, un espacio municipal de fabricación, creación y formación que fomenta la capacitación tecnológica para todos los públicos mediante eventos y festivales de promoción maker, talleres a escuelas y asesoramiento de proyectos. Combina su trabajo realizando actividades profesionales y educativas para el sector público y privado, siendo la referente de Catalunya en formación de SketchUp, y destacando producciones audiovisuales para televisiones como TV3 y TV1."	
 		},
 		"9":{
 			"name":"Lolo & Sosaku",

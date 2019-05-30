@@ -233,7 +233,7 @@ $(document).ready(function()
 						setTimeout(function(){
 							$(".projects_grid").removeClass("hidden");
 							$(".projects_grid").parent().find(".loading").remove();
-						},2000);				
+						},1000);				
 				});
 			});
 	

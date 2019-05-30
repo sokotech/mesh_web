@@ -21,7 +21,6 @@ function loadHTML(elem)
 		.then(function(response) {
    				 return response.text();
 		}).then(function(text) {
-		  		//alert(text);
     			$(elem).html(text);
 		});
 }

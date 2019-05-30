@@ -11,7 +11,7 @@
 		},
 		
 		"2":{
-			"title":"Introducción a herramientas tecnológicas libres y éticas",
+			"title":"Herramientas tecnológicas libres y éticas",
 			"description":"Nullam neque sapien, ultricies viverra enim at, aliquet feugiat orci.",
 			"date":"02/04/2019",
 			"preview":"project2.jpg",
@@ -22,7 +22,7 @@
 		},
 		
 		"3":{
-			"title":"Seguridad y privacidad digital básica",
+			"title":"Privacidad y seguridad digital",
 			"description":"Quisque fringilla nibh magna, eget consequat massa facilisis sit amet.",
 			"date":"01/01/2019",
 			"preview":"project3.jpg",
@@ -77,7 +77,7 @@
 		},
 		
 		"8":{
-			"title":"Impresión y escaneo",
+			"title":"Impresión y escaneado en 3D",
 			"description":"Proin dignissim sapien quis est viverra, non laoreet risus sagittis.",
 			"date":"02/04/2019",
 			"preview":"project8.jpg",
@@ -88,7 +88,7 @@
 		},
 		
 		"9":{
-			"title":"Arte y Tecnologías Creativas",
+			"title":"Aprender a desaprender",
 			"description":"Aenean commodo est eu augue luctus, vel bibendum lorem ultricies.",
 			"date":"01/01/2019",
 			"preview":"project9.jpg",
