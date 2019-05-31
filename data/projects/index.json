@@ -1,5 +1,5 @@
 {	
-		"1":{
+		"future_mesh":{
 			"title":"FutureMeshNetworks",
 			"description":"Mesh Networks y el futuro de internet.",
 			"date":"01/01/2019",
@@ -7,10 +7,10 @@
 			"dossier":"1.pdf",
 			"info":"1.txt",
 			"video":"325055393",
-			"author":1
+			"author":"efrain_foglia"
 		},
 		
-		"2":{
+		"herramientas_tecnologicas":{
 			"title":"Herramientas tecnológicas libres y éticas",
 			"description":"Nullam neque sapien, ultricies viverra enim at, aliquet feugiat orci.",
 			"date":"02/04/2019",
@@ -18,10 +18,10 @@
 			"dossier":"1.pdf",
 			"info":"2.txt",
 			"video":"333506858",
-			"author":2
+			"author":"margarita_padilla"
 		},
 		
-		"3":{
+		"privacidad_seguridad":{
 			"title":"Privacidad y seguridad digital",
 			"description":"Quisque fringilla nibh magna, eget consequat massa facilisis sit amet.",
 			"date":"01/01/2019",
@@ -29,10 +29,10 @@
 			"dossier":"1.pdf",
 			"info":"1.txt",
 			"video":"334051941",
-			"author":3
+			"author":"alex_hache"
 		},
 		
-		"4":{
+		"metodologias_diseno":{
 			"title":"Metodologias y prácticas de diseño",
 			"description":"Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
 			"date":"02/04/2019",
@@ -40,10 +40,10 @@
 			"dossier":"1.pdf",
 			"info":"2.txt",
 			"video":"333257472",
-			"author":4
+			"author":"david_cuartielles"
 		},
 		
-		"5":{
+		"diseno_2d_3d":{
 			"title":"Diseño 2D & 3D",
 			"description":"Aenean imperdiet odio id libero interdum dignissim. Fusce egestas tempor auctor.",
 			"date":"01/01/2019",
@@ -51,10 +51,10 @@
 			"dossier":"1.pdf",
 			"info":"1.txt",
 			"video":"334092219",
-			"author":5
+			"author":"pamela_lustig"
 		},
 		
-		"6":{
+		"vinilo_laser":{
 			"title":"Cortadora de Vinilo y Láser",
 			"description":"Aenean egestas neque mauris, eget pretium sapien ultrices a. Proin non augue venenatis, placerat velit ac, porta libero.",
 			"date":"02/04/2019",
@@ -62,10 +62,10 @@
 			"info":"2.txt",
 			"dossier":"1.pdf",
 			"video":"334312666",
-			"author":6
+			"author":"oscar_ciuro"
 		},
 		
-		"7":{
+		"electro_programacion":{
 			"title":"Electrónica y programación",
 			"description":"Nam ullamcorper mattis aliquet. Sed non egestas ligula. Sed aliquet magna justo, vel egestas ipsum ultricies id.",
 			"date":"01/01/2019",
@@ -73,10 +73,10 @@
 			"info":"1.txt",
 			"dossier":"1.pdf",
 			"video":"294614669",
-			"author":7
+			"author":"nuria_alonso"
 		},
 		
-		"8":{
+		"impresion_3d":{
 			"title":"Impresión y escaneado en 3D",
 			"description":"Proin dignissim sapien quis est viverra, non laoreet risus sagittis.",
 			"date":"02/04/2019",
@@ -84,10 +84,10 @@
 			"dossier":"1.pdf",
 			"info":"2.txt",
 			"video":"334681285",
-			"author":8
+			"author":"belen_fernandez"
 		},
 		
-		"9":{
+		"aprender_desaprender":{
 			"title":"Aprender a desaprender",
 			"description":"Aenean commodo est eu augue luctus, vel bibendum lorem ultricies.",
 			"date":"01/01/2019",
@@ -95,6 +95,6 @@
 			"dossier":"lolo_sosaku_art.pdf",
 			"info":"1.txt",
 			"video":"335295041",
-			"author":9
+			"author":"lolo_sosaku"
 		}
 }

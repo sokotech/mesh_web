@@ -15,7 +15,48 @@ function getUrlVars()
 	return(vars);
 }
 
-function loadHTML(elem)
+function loadDone()
+{
+ $(".nav-link").click(function(event){
+			var parts = $(this).attr("href").split("#");   		
+			if(parts.length==1) return;
+			
+   		var target = $("#"+parts[1]);   		
+   		if($(target).length) 
+			{
+				if($(target).length)
+				{
+					event.preventDefault();
+			   	$('html, body').stop().animate({
+            		scrollTop: $(target).offset().top
+        			},500);
+        		}
+        	}
+   });
+}
+
+
+function loadHTML(items, i)
+{
+	fetch($(items[i]).attr("include-HTML"))
+		.then(function(response) {
+   				 return response.text();
+		}).then(function(text) {
+    			$(items[i]).html(text);
+				i++;
+				if(i<items.length)
+					loadHTML(items,i);
+				else 
+					loadDone();
+		});
+}
+function includeHTML()
+{
+  var imports=$("[include-HTML]");
+  if(imports.length>1) loadHTML(imports,0); 
+}
+  
+/*function loadHTML(elem)
 {
 	fetch($(elem).attr("include-HTML"))
 		.then(function(response) {
@@ -33,6 +74,7 @@ function includeHTML()
 		$(imports[a]).removeAttr("include-HTML");  	
   }  
 }
+*/
 
 function email_isvalid(email)
 {
@@ -249,8 +291,8 @@ $(document).ready(function()
    		window.location.href=".";
    	}
    }	
-
-   $(".nav-link").click(function(event){
+   
+   /*$(".nav-link").click(function(event){
 			var parts = $(this).attr("href").split("#");   		
 			if(parts.length==1) return;
 			
@@ -265,7 +307,7 @@ $(document).ready(function()
         			},500);
         		}
         	}
-   });
+   });*/
 
    $("#check_subscription").click(function()
     {

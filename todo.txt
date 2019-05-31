@@ -1,5 +1,6 @@
-- Email para usuarios en suscripción y mensaje? (email.php).
-
-- Dominio.
-- Netlify.
 - Email de contacto correcto (email.php).
+
+- Search console
+- Google Analytics
+
+- Email para usuarios en suscripción y mensaje? (email.php).
