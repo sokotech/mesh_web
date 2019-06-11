@@ -53,14 +53,7 @@ function loadHTML(items, i)
 function includeHTML()
 {
   var imports=$("[include-HTML]");
-  alert("Total includes:"+imports.length);
-  if(imports.length>1) loadHTML(imports,0);
-  
-  //for(a=0;a<imports.length;a++)
-  //{
-  //		loadHTML(imports,a);
-//		$(imports[a]).removeAttr("include-HTML");  	
-  //}  
+  if(imports.length>1) loadHTML(imports,0); 
 }
   
 /*function loadHTML(elem)

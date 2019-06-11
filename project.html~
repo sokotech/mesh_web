@@ -2,18 +2,18 @@
 <html>
 <head>
   <title>MESH</title>
-  <meta name="description" content="MESH by SOKO">
-  <meta name="author" content="SokoTech" >
-  
   <meta charset="utf-8">
+  <meta name="description" content="Maker Education Science Hack">
+  <meta name="author" content="SokoTech">
+  <meta name="keywords" content="steam,education,educación,fablab,events,educational,educacional,programs,programas">  
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-   <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+  <link rel="shortcut icon" href="img/favicon.png" type="image/png">
   
   <!--<link href="./css/bootstrap.min.css" rel="stylesheet">
   <script src="./js/jquery.1_11_1.min.js"></script>
   <script src="./js/bootstrap.min.js"></script>-->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link href="css/mesh.css?14" rel="stylesheet">
+  <link href="css/mesh.css?16" rel="stylesheet">
 
   <!--<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>-->
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
@@ -25,7 +25,7 @@
 </head>
 
 <body>
-   <div include-HTML="nav.html?4"></div>
+   <div include-HTML="nav.html?5"></div>
      
    <div class="container project_info">
    	<div class="row">

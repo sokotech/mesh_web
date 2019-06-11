@@ -62,7 +62,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .foot img
 {
-	width:320px;	
+	width:300px;	
 	margin:auto;
 	display:block;
 }
@@ -309,6 +309,10 @@ h1, h2, h3, h4, h5, h6 {
 {
 	padding-right:40px !important;
 }
+.project_title
+{
+	margin-bottom:20px;
+}
 .project_info
 {
 	 padding:120px 20px 50px 20px;
@@ -316,6 +320,10 @@ h1, h2, h3, h4, h5, h6 {
 .project_wrapper
 {
 	margin-bottom:150px;
+}
+.project_description
+{
+	margin-bottom:40px;
 }
 .project_video
 {

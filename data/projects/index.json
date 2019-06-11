@@ -1,99 +1,99 @@
 {	
 		"future_mesh":{
-			"title":"FutureMeshNetworks",
-			"description":"Mesh Networks y el futuro de internet.",
+			"title":"FutureMeshNetworks (FMN): Mesh Networks y el futuro de internet",
+			"description":"Una revisión histórica de la evolución de Internet desde distintas perspectivas: cultural, política, económica, etc. Luego, un ejercicio práctico para que el alumnado genere propuestas imaginando una construcción futura de la red.",
 			"date":"01/01/2019",
-			"preview":"project1.jpg",
-			"dossier":"1.pdf",
-			"info":"1.txt",
+			"preview":"mesh_future_mesh.jpg",
+			"adossier":"1.pdf",
+			"info":"future_mesh.txt",
 			"video":"325055393",
 			"author":"efrain_foglia"
 		},
 		
 		"herramientas_tecnologicas":{
-			"title":"Herramientas tecnológicas libres y éticas",
-			"description":"Nullam neque sapien, ultricies viverra enim at, aliquet feugiat orci.",
+			"title":"Introducción a herramientas tecnológicas libres y éticas",
+			"description":"Aprenderás a diseñar una actividad para que las personas participantes aprendan a diferenciar entre software privativo y software libre y valoren las aportaciones éticas de este último. Además, conocerás y podrás aplicar los conceptos clave de la cultura libre.",
 			"date":"02/04/2019",
-			"preview":"project2.jpg",
-			"dossier":"1.pdf",
-			"info":"2.txt",
+			"preview":"mesh_free_tools.jpg",
+			"adossier":"1.pdf",
+			"info":"herramientas_libres.txt",
 			"video":"333506858",
 			"author":"margarita_padilla"
 		},
 		
 		"privacidad_seguridad":{
-			"title":"Privacidad y seguridad digital",
-			"description":"Quisque fringilla nibh magna, eget consequat massa facilisis sit amet.",
+			"title":"Seguridad y privacidad digital básica",
+			"description":"Una guía para entender la seguridad de manera integral y su relación con las infraestructuras de información y comunicación. Incluye estrategias para la resistencia y la gestión de identidades, además de ejercicios prácticos y de evaluación y dinámicas grupales.",
 			"date":"01/01/2019",
 			"preview":"project3.jpg",
-			"dossier":"1.pdf",
-			"info":"1.txt",
+			"adossier":"1.pdf",
+			"info":"seguridad_privacidad.txt",
 			"video":"334051941",
 			"author":"alex_hache"
 		},
 		
 		"metodologias_diseno":{
-			"title":"Metodologias y prácticas de diseño",
-			"description":"Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+			"title":"Metodologías y prácticas de diseño",
+			"description":"Conceptos elementales para entender todo el espectro del diseño 2D y 3D: programas libres y abiertos para utilizar online y offline, dinámicas contra el bloqueo creativo y ejercicios grupales e individuales.",
 			"date":"02/04/2019",
 			"preview":"project4.jpg",
 			"dossier":"1.pdf",
-			"info":"2.txt",
+			"info":"metodologias_diseno.txt",
 			"video":"333257472",
 			"author":"david_cuartielles"
 		},
 		
 		"diseno_2d_3d":{
 			"title":"Diseño 2D & 3D",
-			"description":"Aenean imperdiet odio id libero interdum dignissim. Fusce egestas tempor auctor.",
+			"description":"Conceptos elementales para entender todo el espectro del diseño 2D y 3D: programas libres y abiertos para utilizar online y offline, dinámicas contra el bloqueo creativo y ejercicios grupales o individuales.",
 			"date":"01/01/2019",
-			"preview":"project5.jpg",
-			"dossier":"1.pdf",
-			"info":"1.txt",
+			"preview":"mesh_2d_3d.jpg",
+			"adossier":"1.pdf",
+			"info":"diseno_2d_3d.txt",
 			"video":"334092219",
 			"author":"pamela_lustig"
 		},
 		
 		"vinilo_laser":{
 			"title":"Cortadora de Vinilo y Láser",
-			"description":"Aenean egestas neque mauris, eget pretium sapien ultrices a. Proin non augue venenatis, placerat velit ac, porta libero.",
+			"description":"Una guía paso a paso para aprender a usar la cortadora de vinilo y láser, sus aplicaciones, ejemplos y consejos para desarrollar tus dinámicas. Además, aprenderás el ABC del diseño en este campo.",
 			"date":"02/04/2019",
-			"preview":"project6.jpg",
-			"info":"2.txt",
-			"dossier":"1.pdf",
+			"preview":"mesh_cortadora_laser.jpg",
+			"info":"cortadora_laser.txt",
+			"adossier":"1.pdf",
 			"video":"334312666",
 			"author":"oscar_ciuro"
 		},
 		
 		"electro_programacion":{
 			"title":"Electrónica y programación",
-			"description":"Nam ullamcorper mattis aliquet. Sed non egestas ligula. Sed aliquet magna justo, vel egestas ipsum ultricies id.",
+			"description":"¿De qué hablamos cuando hablamos de electrónica o programación? ¿Qué es la robótica? ¿Por qué importan el software y el hardware libre?¿Qué es la placa Arduino UNO? En este módulo aprenderás ésto y mucho más.",
 			"date":"01/01/2019",
-			"preview":"project7.jpg",
-			"info":"1.txt",
-			"dossier":"1.pdf",
+			"preview":"mesh_electro_programacion.jpg",
+			"info":"electronica_programacion.txt",
+			"adossier":"1.pdf",
 			"video":"294614669",
 			"author":"nuria_alonso"
 		},
 		
 		"impresion_3d":{
-			"title":"Impresión y escaneado en 3D",
-			"description":"Proin dignissim sapien quis est viverra, non laoreet risus sagittis.",
+			"title":"Escaneo e Impresión 3D",
+			"description":"Aquí aprenderás cuáles son las tecnologías de impresión 3D, sus aplicaciones y recursos online para trabajarlas. También, encontrarás información sobre Modelado y Escaneado 3D, actividades para inspirarte y un ejercicio concreto: Señalética en braille para un huerto urbano.",
 			"date":"02/04/2019",
-			"preview":"project8.jpg",
-			"dossier":"1.pdf",
-			"info":"2.txt",
+			"preview":"mesh_escaneo_3d.jpg",
+			"adossier":"1.pdf",
+			"info":"escaneo_3d.txt",
 			"video":"334681285",
 			"author":"belen_fernandez"
 		},
 		
-		"aprender_desaprender":{
-			"title":"Aprender a desaprender",
-			"description":"Aenean commodo est eu augue luctus, vel bibendum lorem ultricies.",
+		"arte_tecnologias":{
+			"title":"Arte y Tecnologías Creativas",
+			"description":"Sin una intención manifiesta y a través de ejercicios concretos, Lolo & Sosaku hacen una alabanza a la esencia misma del arte y la inspiración y cómo ésta es un vehículo para el aprendizaje. Comparten dinámicas, estrategias y observaciones que podrás implementar en clases.",
 			"date":"01/01/2019",
-			"preview":"project9.jpg",
+			"preview":"mesh_lolo_sosaku.jpg",
 			"dossier":"lolo_sosaku_art.pdf",
-			"info":"1.txt",
+			"info":"arte_tecnologia.txt",
 			"video":"335295041",
 			"author":"lolo_sosaku"
 		}

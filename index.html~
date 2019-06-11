@@ -2,12 +2,13 @@
 <html>
 <head>
   <title>MESH</title>
-  <meta name="description" content="MESH by SOKO">
-  <meta name="author" content="SokoTech" >
-  
   <meta charset="utf-8">
+  <meta name="description" content="Maker Education Science Hack">
+  <meta name="author" content="SokoTech">
+  <meta name="keywords" content="steam,education,educación,fablab,events,educational,educacional,programs,programas">  
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+
   <!--<link href="./css/bootstrap.min.css" rel="stylesheet">-->
   <link href="css/loading.css?4" rel="stylesheet">
   
@@ -39,7 +40,7 @@
    </section>
    <section id="projects" class="container">
 		<div class="intro">
- 			<h1>MESH <small>Maker Education Science Hack</small></h1>
+ 			<h1>MESH <small>Maker Education Social Hack</small></h1>
  			<p class="lead">
  				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in quam eu lectus cursus semper 
  				sed quis turpis. In mauris mauris, convallis sit amet felis et, malesuada ultricies nibh. 

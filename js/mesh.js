@@ -87,7 +87,11 @@ function show_project_info(prj)
 	$(".project_title").text(projects[prj].title);
 	$(".project_video iframe").attr("src","https://player.vimeo.com/video/"+projects[prj].video+
 											  "?title=0&byline=0&portrait=0");
-	$(".project_dossier").attr("href","data/projects/dossiers/"+projects[prj].dossier);
+	if(projects[prj].dossier)
+		$(".project_dossier").attr("href","data/projects/dossiers/"+projects[prj].dossier);
+	else 
+		$(".project_dossier").hide();
+		
    fetch("data/projects/info/"+projects[prj].info)
      .then(function(response){
 			 return response.text().then(function(text){
