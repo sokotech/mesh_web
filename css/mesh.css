@@ -62,19 +62,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 .foot img
 {
-	width:300px;	
+	width:190px;	
 	margin:auto;
 	display:block;
 }
 .foot .logo_manel
 {
-	width:140px;
+	width:100px;
 	margin:0 40px 0 0;
 	display:inline-block;
 }
 .foot .logo_soko
 {
-	width:180px;
+	width:90px;
 	margin:0 0 0 20px;
 	display:inline-block;
 }
