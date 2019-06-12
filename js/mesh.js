@@ -38,7 +38,7 @@ function loadDone()
 
 function loadHTML(items, i)
 {
-	fetch($(items[i]).attr("include-HTML"))
+	fetch($(items[i]).attr("include-HTML")+"?"+new Date().getTime())
 		.then(function(response) {
    				 return response.text();
 		}).then(function(text) {

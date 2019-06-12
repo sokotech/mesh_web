@@ -30,12 +30,12 @@
 </head>
 
 <body id="home">
-    <div include-HTML="nav.html?6"></div>
+    <div include-HTML="nav.html"></div>
    
    <section class="home-hero">
 	  <div class="container-fluid hero-container home-bg">
 		   <object id="mesh-hero-bg-graphic" type="image/svg+xml" data-svg="img/mesh_bg.svg"></object>    
-	      <h1 id="mesh-hero-title" class="fluid">Maker<br/>Education<br/>Science Hack</h1>
+	      <h1 id="mesh-hero-title" class="fluid">Maker<br/>Education<br/>Social Hack</h1>
 	   </div>  
    </section>
    <section id="projects" class="container">
@@ -116,7 +116,7 @@
     </div>
 	</div>
 
-	<div include-HTML="foot.html?7"></div>
+	<div include-HTML="foot.html"></div>
 	<script>includeHTML();</script>
 	
 
