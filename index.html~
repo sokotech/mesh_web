@@ -52,7 +52,7 @@
    <section id="projects" class="container">
 		<div class="intro">
  			<h1><small>Maker Education Social Hack</small></h1>
- 			<p class="lead hidden">
+ 			<p class="lead ahidden">
  				El programa MESH ( <b>M</b>akers <b>E</b>ducation <b>S</b>ocial <b>H</b>ack) es una iniciativa de SokoTech dirigida a 
  				<b>formadores y formadoras que trabajan con jóvenes en programas de inclusión social</b>. 
  				Persigue poner en marcha una experiencia escalable a bibliotecas, ateneos, centros cívicos, 
@@ -71,34 +71,6 @@
 				Nou Barris (Barcelona).
 
  			</p>
-
-			<div class="row">
-					<div class="col-md-6">
-						<p class="lead">
-			 				El programa MESH ( <b>M</b>akers <b>E</b>ducation <b>S</b>ocial <b>H</b>ack) es una iniciativa de SokoTech dirigida a 
- 							<b>formadores y formadoras que trabajan con jóvenes en programas de inclusión social</b>. 
- 							Persigue poner en marcha una experiencia escalable a bibliotecas, ateneos, centros cívicos, 
- 							escuelas y otros equipamientos públicos o privados. Consiste en un programa formativo online 
- 							y de acceso universal basado en la filosofía Maker y las herramientas éticas de código abierto.
-							A partir de la fabricación digital y el prototipado rápido busca generar entornos de aprendizaje 
-							emancipadores para jóvenes. 
-			 			</p>
-					</div>
-					<div class="col-md-6">
-						<p class="lead">
-							Cada una de las siguientes cápsulas de conocimiento ha sido desarrollada 
-							por referentes en la educación Maker y la inclusión social.<br/><br/>
-							Nuestro objetivo es que cada formador o formadora aprenda a través de estos 9 módulos y sea capaz 
-							de despertar intereses, pasiones y fortalezas en los jóvenes, poniendo a su alcance las últimas 
-							tecnologías, conocimientos y habilidades que les permita llevar a cabo un proyecto de interés para 
-							ellos y su comunidad. 
-							<br/><br/>
-							MESH arranca con un piloto en colaboración con la <b>Fundació Pare Manel</b> en los barrios de Verdum y 
-							Nou Barris (Barcelona).
-			 			</p>
-					</div>
-			</div>
-			
   		</div>
     	<div class="container projects_container">
     		<div class="projects">
