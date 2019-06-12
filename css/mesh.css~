@@ -337,6 +337,12 @@ h1, h2, h3, h4, h5, h6 {
 	margin-bottom:20px;
 }
 
+/* ---- project info -------------- */
+#about
+{
+	padding-top:120px;
+}
+
 /* ---- RESPONSIVE -----------------*/
 
 @media (max-width: 768px) {
@@ -364,7 +370,7 @@ h1, h2, h3, h4, h5, h6 {
 {
 	padding:60px 0 40px 0;
 }
-#projects
+#projects, #about
 {
 	padding-top:70px;
 }

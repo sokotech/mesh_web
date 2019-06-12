@@ -89,10 +89,12 @@ function show_project_info(prj)
 											  "?title=0&byline=0&portrait=0");
 	if(projects[prj].dossier)
 		$(".project_dossier").attr("href","data/projects/dossiers/"+projects[prj].dossier);
-	else 
-		$(".project_dossier").hide();
-		
-   fetch("data/projects/info/"+projects[prj].info)
+	else{ 
+		$(".project_dossier").addClass("disabled");		
+		$(".project_dossier").text("Dossier descargable próximamente"); //hide();
+	}	
+	$(".project_description").text(projects[prj].description);
+   /*fetch("data/projects/info/"+projects[prj].info)
      .then(function(response){
 			 return response.text().then(function(text){
 			 		$(".project_description").html(text); 
@@ -101,7 +103,7 @@ function show_project_info(prj)
      .catch(function(error){ 
    	console.log(error); 
      });   
-   									     
+   */									     
 	$(".author_name").text(authors[projects[prj].author].name);
 	$(".author_bio").html(authors[projects[prj].author].bio);
 	

@@ -18,11 +18,8 @@ function getUrlVars()
 function loadDone()
 {
  $(".nav-link").click(function(event){
- 	      return;
- 			alert("pasa 1");
 			var parts = $(this).attr("href").split("#");   		
 			if(parts.length==1) return;
- 			alert("pasa 2");
 			
    		var target = $("#"+parts[1]);   		
    		if($(target).length) 
@@ -92,9 +89,11 @@ function show_project_info(prj)
 											  "?title=0&byline=0&portrait=0");
 	if(projects[prj].dossier)
 		$(".project_dossier").attr("href","data/projects/dossiers/"+projects[prj].dossier);
-	else 
-		$(".project_dossier").hide();
-		
+	else{ 
+		$(".project_dossier").addClass("disabled");		
+		$(".project_dossier").text("Dossier descargable próximamente"); //hide();
+	}	
+	$(".project_description").text(projects[prj].description);
    fetch("data/projects/info/"+projects[prj].info)
      .then(function(response){
 			 return response.text().then(function(text){

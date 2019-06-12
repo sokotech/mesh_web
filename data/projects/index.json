@@ -23,7 +23,7 @@
 		
 		"privacidad_seguridad":{
 			"title":"Seguridad y privacidad digital básica",
-			"description":"Una guía para entender la seguridad de manera integral y su relación con las infraestructuras de información y comunicación. Incluye estrategias para la resistencia y la gestión de identidades, además de ejercicios prácticos y de evaluación y dinámicas grupales.",
+			"description":"Una guía para entender la seguridad de manera integral y su relación con las infraestructuras de información y comunicación. Incluye estrategias para la resistencia y la gestión de identidades, además de ejercicios prácticos, de evaluación y dinámicas grupales.",
 			"date":"01/01/2019",
 			"preview":"mesh_digital_security.jpg",
 			"adossier":"1.pdf",
@@ -34,7 +34,7 @@
 		
 		"metodologias_diseno":{
 			"title":"Metodologías y prácticas de diseño",
-			"description":"Formación clave en el ámbito del diseño para el desarrollo de proyectos, materiales didácticos y planos para diseñar programas e impartir talleres. Podrás adquirir las herramientas para diseñar proyectos que después aplicarás en tus programas a largo plazo.",
+			"description":"Encontrarás las herramientas necesarias para co-diseñar proyectos a largo plazo. A través de la metodología y las buenas prácticas del diseño, aprenderás a desarrollar proyectos, materiales didácticos y planificar programas y talleres.",
 			"date":"02/04/2019",
 			"preview":"mesh_design_methods.jpg",
 			"dossier":"1.pdf",
@@ -45,7 +45,7 @@
 		
 		"diseno_2d_3d":{
 			"title":"Diseño 2D & 3D",
-			"description":"Conceptos elementales para entender todo el espectro del diseño 2D y 3D: programas libres y abiertos para utilizar online y offline, dinámicas contra el bloqueo creativo y ejercicios grupales o individuales.",
+			"description":"En este módulo descubriremos los conceptos elementales para entender todo el espectro del diseño 2D y 3D: programas libres y abiertos para utilizar online y offline, dinámicas contra el bloqueo creativo y ejercicios grupales e individuales.",
 			"date":"01/01/2019",
 			"preview":"mesh_2d_3d.jpg",
 			"dossier":"pamela_lustig_diseno_2d_3d.pdf",
@@ -56,7 +56,7 @@
 		
 		"vinilo_laser":{
 			"title":"Cortadora de Vinilo y Láser",
-			"description":"Una guía paso a paso para aprender a usar la cortadora de vinilo y láser, sus aplicaciones, ejemplos prácticos y consejos para desarrollar tus dinámicas. Además, aprenderás los conceptos clave para desarrollarte en este campo.",
+			"description":"Una vez hayas adquirido los conocimientos del módulo Diseño 2D & 3D, aquí aprenderás paso a paso a usar la cortadora de vinilo y láser, sus aplicaciones, ejemplos prácticos y consejos para desarrollar tus dinámicas. Conocerás los conceptos clave para desarrollarte en este campo.",
 			"date":"02/04/2019",
 			"preview":"mesh_laser_cutter.jpg",
 			"info":"cortadora_laser.txt",
@@ -89,7 +89,7 @@
 		
 		"arte_tecnologias":{
 			"title":"Arte y Tecnologías Creativas",
-			"description":"Sin una intención manifiesta y a través de ejercicios concretos, Lolo & Sosaku hacen una alabanza a la esencia misma del arte y la inspiración y cómo ésta es un vehículo para el aprendizaje. Comparten dinámicas, estrategias y observaciones que podrás implementar en clases.",
+			"description":"Sin una intención manifiesta y a través de ejercicios concretos, Lolo & Sosaku hacen una alabanza a la esencia misma del arte y la inspiración y cómo ambas son un vehículo para el aprendizaje. Comparten dinámicas, estrategias y observaciones que podrás implementar en clases.",
 			"date":"01/01/2019",
 			"preview":"mesh_lolo_sosaku.jpg",
 			"adossier":"lolo_sosaku_art.pdf",

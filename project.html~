@@ -3,7 +3,7 @@
 <head>
   <title>MESH</title>
   <meta charset="utf-8">
-  <meta name="description" content="Maker Education Science Hack">
+  <meta name="description" content="Maker Education Social Hack">
   <meta name="author" content="SokoTech">
   <meta name="keywords" content="steam,education,educación,fablab,events,educational,educacional,programs,programas">  
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -20,7 +20,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-  <script src="js/mesh.js?15"></script>
+  <script src="js/mesh.js?16"></script>
 
 </head>
 
@@ -47,7 +47,7 @@
 				
 				<div class="project_wrapper">
 	  	 	   	<h1 class="project_title"></h1>
-   	  			<p class="lead project_description"></p>
+   	  			<p class="alead project_description"></p>
      				<a href="#" target="_new" class="btn btn-info project_dossier" role="button">Descargar dossier en formato PDF</a>
      			</div>
       	</div>
