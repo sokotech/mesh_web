@@ -270,8 +270,26 @@ function animate_mesh(mesh)
 	}
 }
 
+function cookie_control()
+{
+	if($(".cookies_msg").length)	
+	{
+		if(localStorage["cookies_accept"]!=1)
+		{
+			$(".cookies_msg").fadeIn(1000);
+			$(".cookies_accept").click(function()
+			{
+					$(".cookies_msg").fadeOut();
+					localStorage["cookies_accept"]=1;
+			});
+		}	
+	}		
+}
+
 $(document).ready(function()
 {
+   cookie_control();
+
 	$("#contact_comment").hide();	
 	
 	if($(".projects_grid").length>0)

@@ -27,7 +27,7 @@
   <link href="https://fonts.googleapis.com/css?family=Raleway:800" rel="stylesheet">
   
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link href="css/mesh.css?33" rel="stylesheet">
+  <link href="css/mesh.css?4" rel="stylesheet">
 
 
   <!--<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>-->
@@ -36,7 +36,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
   <!--<script src="./js/bootstrap.min.js"></script>-->
-  <script src="js/mesh.js?46"></script>
+  <script src="js/mesh.js?48"></script>
 
 </head>
 
@@ -54,7 +54,7 @@
  			<h1><small>Maker Education Social Hack</small></h1>
  			<p class="lead ahidden">
  				El programa MESH ( <b>M</b>akers <b>E</b>ducation <b>S</b>ocial <b>H</b>ack) es una iniciativa de SokoTech dirigida a 
- 				<b>formadores y formadoras que trabajan con jóvenes en programas de inclusión social</b>. 
+ 				<b>formadores y formadoras que trabajan con jóvenes en programas para la inclusión social</b>. 
  				Persigue poner en marcha una experiencia escalable a bibliotecas, ateneos, centros cívicos, 
  				escuelas y otros equipamientos públicos o privados. Consiste en un programa formativo online 
  				y de acceso universal basado en la filosofía Maker y las herramientas éticas de código abierto.
@@ -63,12 +63,17 @@
 				por referentes en la educación Maker y la inclusión social.
 				<br/><br/>
 				Nuestro objetivo es que cada formador o formadora aprenda a través de estos 9 módulos y sea capaz 
-				de despertar intereses, pasiones y fortalezas en los jóvenes, poniendo a su alcance las últimas 
+				de <b>despertar intereses, pasiones y fortalezas en los jóvenes</b>, poniendo a su alcance las últimas 
 				tecnologías, conocimientos y habilidades que les permita llevar a cabo un proyecto de interés para 
 				ellos y su comunidad. 
 				<br/><br/>
 				MESH arranca con un piloto en colaboración con la <b>Fundació Pare Manel</b> en los barrios de Verdum y 
-				Nou Barris (Barcelona).
+				Nou Barris  (Barcelona) y el apoyo de l’Ajuntament de Barcelona.
+				<br/><br/>
+				<b>SokoTech</b> es un equipo multidisciplinar que trabaja apasionadamente en el diseño e 
+				implementación de ideas, programas y eventos que se encuentran en la intersección del arte, 
+				la ciencia y la tecnología. A lo largo de los últimos años ha implementado numerosas actividades 
+				para la inclusión social, la filosofía STEAM y las experiencias de aprendizaje.
 
  			</p>
   		</div>
@@ -137,6 +142,13 @@
 		</div>
     </div>
 	</div>
+
+   <div class="cookies_msg">
+		<p>Esta web utiliza cookies para obtener estadísticas de navegación. 
+		<a class="cookies_accept" href="#">Aceptar</a><br/>Obten información sobre las cookies   
+		<a target="_new" href="https://support.mozilla.org/es/kb/cookies-informacion-que-los-sitios-web-guardan-en-">aquí</a>.
+		</p>   
+   </div>
 
 	<div include-HTML="foot.html"></div>
 	<script>includeHTML();</script>

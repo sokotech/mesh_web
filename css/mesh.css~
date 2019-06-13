@@ -25,6 +25,49 @@ h1, h2, h3, h4, h5, h6 {
 	 display:none !important;
 }
 
+/* ----cookies -------------- */
+.cookies_msg
+{
+	display:none;
+	position:fixed;
+	bottom:0;
+	left:0;
+	padding:30px 30px;
+	background:orange;
+	width:100%;
+	color:white;
+	z-index:255;
+}
+.cookies_msg p
+{
+	margin-bottom:0;
+}
+.cookies_msg .cookies_accept
+{
+	border:2px solid white;
+	padding:5px 10px;
+	text-decoration: none;
+	margin-left:5px;
+}
+@media (max-width: 768px) {
+ .cookies_msg .cookies_accept
+ {
+	display:block;
+	margin: 10px 0;
+	text-align:center;
+ }
+}
+.cookies_msg .cookies_accept:hover
+{
+	color:black;
+	background:white;
+}
+.cookies_msg a
+{
+	color:inherit;
+	text-decoration: underline;
+}
+
 /* ---- navbar -------------- */
 
 .navbar
@@ -262,6 +305,11 @@ h1, h2, h3, h4, h5, h6 {
 .projects
 {
 	padding:40px 0 80px 0;
+}
+.projects_container
+{
+   padding-left:0 !important;
+   padding-right:0 !important;
 }
 .projects_grid
 {
