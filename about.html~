@@ -29,7 +29,7 @@
 
 </head>
 
-<body id="home">
+<body>
     <div include-HTML="nav.html"></div>
    
    <section id="about" class="container">
