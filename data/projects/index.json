@@ -37,7 +37,7 @@
 			"description":"Encontrarás las herramientas necesarias para co-diseñar proyectos a largo plazo. A través de la metodología y las buenas prácticas del diseño, aprenderás a desarrollar proyectos, materiales didácticos y planificar programas y talleres.",
 			"date":"02/04/2019",
 			"preview":"mesh_design_methods.jpg",
-			"dossier":"1.pdf",
+			"adossier":"1.pdf",
 			"info":"metodologias_diseno.txt",
 			"video":"341589070",
 			"author":"david_cuartielles"
@@ -60,7 +60,7 @@
 			"date":"02/04/2019",
 			"preview":"mesh_laser_cutter.jpg",
 			"info":"cortadora_laser.txt",
-			"adossier":"1.pdf",
+			"dossier":"oscar_ciuro_cortadora_vinilo_laser.pdf",
 			"video":"341579263",
 			"author":"oscar_ciuro"
 		},
