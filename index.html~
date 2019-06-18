@@ -19,6 +19,12 @@
   <meta name="keywords" content="steam,education,educación,fablab,events,educational,educacional,programs,programas">  
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+ 
+  	<meta name="twitter:card" value="summary">
+	<meta property="og:title" content="MESH" />
+	<meta property="og:url" content="https://mesh.soko.tech" />
+	<meta property="og:image" content="img/mesh_logo.png" />
+	<meta property="og:description" content="Maker Education Social Hack" />
 
   <!--<link href="./css/bootstrap.min.css" rel="stylesheet">-->
   <link href="css/loading.css?6" rel="stylesheet">
