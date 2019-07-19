@@ -274,7 +274,7 @@ function cookie_control()
 {
 	if($(".cookies_msg").length)	
 	{
-		if(localStorage["cookies_accept"]!=2)
+		if(localStorage["cookies_accept"]!=1)
 		{
 			$(".cookies_msg").fadeIn(1000);
 			$(".cookies_accept").click(function()

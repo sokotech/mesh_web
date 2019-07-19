@@ -386,10 +386,10 @@ $(document).ready(function()
 		$(".sending").removeClass("hidden");
 				
  		var params={"function": "contact", "name":name, "email":email,"text":msg, "lng": lng,
- 						 "comment":comment};		
+ 						 "comment":comment,"config":"mesh"};		
  	   if($("#check_subscription").find("input").prop('checked')) params["subscribe"]=1;
-		$.post("https://2017.steamconf.com/mesh/email.php",params)
-		//$.post("gandi/mesh/email.php",params)
+		$.post("https://2017.steamconf.com/soko/email.php",params)
+		//$.post("http://localhost/gandi/email.php",params)
 			   .done(function(data)
 			   {
 			   	//alert(data);
