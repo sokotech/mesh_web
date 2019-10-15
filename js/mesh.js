@@ -93,6 +93,11 @@ function show_project_info(prj)
 		$(".project_dossier").addClass("disabled");		
 		$(".project_dossier").text("Dossier descargable próximamente"); //hide();
 	}	
+	if(projects[prj].kit)
+	{
+		$(".project_kit").attr("href","data/projects/dossiers/"+projects[prj].kit);
+		$(".project_kit").show();
+	}	
 	$(".project_description").text(projects[prj].description);
    /*fetch("data/projects/info/"+projects[prj].info)
      .then(function(response){
