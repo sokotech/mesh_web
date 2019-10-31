@@ -88,8 +88,14 @@ function show_project_info(prj)
 	$(".project_video iframe").attr("src","https://player.vimeo.com/video/"+projects[prj].video+
 											  "?title=0&byline=0&portrait=0");
 	if(projects[prj].dossier)
+	{
 		$(".project_dossier").attr("href","data/projects/dossiers/"+projects[prj].dossier);
-	else{ 
+		$(".project_dossier").click(function()
+		{
+			ga('send', 'event', 'Downloads', 'clic', projects[prj].dossier);
+			return(true);
+		});
+	}else{ 
 		$(".project_dossier").addClass("disabled");		
 		$(".project_dossier").text("Dossier descargable próximamente"); //hide();
 	}	
@@ -97,6 +103,12 @@ function show_project_info(prj)
 	{
 		$(".project_kit").attr("href","data/projects/dossiers/"+projects[prj].kit);
 		$(".project_kit").show();
+		$(".project_kit").click(function()
+		{
+			ga('send', 'event', 'Downloads', 'clic', projects[prj].kit);
+			return(true);
+		});
+
 	}	
 	$(".project_description").text(projects[prj].description);
    /*fetch("data/projects/info/"+projects[prj].info)
