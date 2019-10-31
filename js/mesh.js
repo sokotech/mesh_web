@@ -92,7 +92,11 @@ function show_project_info(prj)
 		$(".project_dossier").attr("href","data/projects/dossiers/"+projects[prj].dossier);
 		$(".project_dossier").click(function()
 		{
-			ga('send', 'event', 'Downloads', 'clic', projects[prj].dossier);
+			gtag('event', projects[prj].title, {
+			  'event_category' : 'download',
+ 			  'event_label' : projects[prj].dossier
+			});
+
 			return(true);
 		});
 	}else{ 
@@ -105,7 +109,11 @@ function show_project_info(prj)
 		$(".project_kit").show();
 		$(".project_kit").click(function()
 		{
-			ga('send', 'event', 'Downloads', 'clic', projects[prj].kit);
+			gtag('event', projects[prj].title, {
+			  'event_category' : 'download',
+ 			  'event_label' : projects[prj].kit
+			});
+
 			return(true);
 		});
 
